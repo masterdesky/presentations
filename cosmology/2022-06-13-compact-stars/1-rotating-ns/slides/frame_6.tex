@@ -2,17 +2,46 @@
 %	SLIDE 6.
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Solutions for $r < R$}
+\frametitle{Solutions for all $r$ values}
+\framesubtitle{Interior solution for $J$}
 
 \begin{itemize}
-	\item J. B. Hartle obtained a formula from the Einstein equations that can be used to derive the formula for the angular 
-	
-	\item The true relationship can be coined as
+	\item The centrifugal force acting on a fluid element depends on the coupled frequencies of rotating inertial frames and the rotation of the star:
 	\begin{block}{}
-		\begin{equation}
-			\omega (r)
+		\begin{equation} \label{eq:6}
+			\bar{\omega} (r)
 			=
-			\frac{2 I \Omega}{r^{3}}
+			\Omega - \omega (r)
+		\end{equation}
+	\end{block}
+	\item J. B. Hartle obtained a formula from the Einstein equations
+	\begin{block}{}
+		\begin{equation} \label{eq:7}
+			\frac{1}{r^{4}} \frac{\mathrm{d}}{\mathrm{d} r}
+			\left(
+				r^{4} j \frac{\mathrm{d} \bar{\omega}}{\mathrm{d} r}
+				+
+				\frac{4}{r} \frac{\mathrm{d} j}{\mathrm{d} r} \bar{\omega}
+				=
+				0
+			\right)
+		\end{equation}
+	\end{block}		
+	\item ...that can be used to derive the formula for the angular momentum:
+	\begin{block}{}
+		\begin{equation} \label{eq:8}
+			J
+			=
+			\frac{8 \pi}{3} \int_{0}^{R} \mathrm{d}r\,r^{4}
+			\frac{
+				\epsilon (r) + p (r)
+			}{
+				\sqrt{1 - 2 M (r) / r}
+			}
+			\left[
+				\Omega - \omega (r)
+			\right]
+			e^{- \nu (r)}
 		\end{equation}
 	\end{block}
 \end{itemize}
