@@ -5,6 +5,35 @@
 \frametitle{Solutions for relativistic stars}
 \framesubtitle{Derivation}
 
-
+\begin{itemize}
+	\item The z-component (the axis of rotation) of the angular momentum can be computed as
+	\begin{block}{}
+		\begin{equation}
+			J
+			=
+			I \Omega
+			=
+			\int \mathrm{d}r\,\mathrm{d}\theta\,\mathrm{d}\phi\,
+			\sqrt{- \det g_{\alpha \beta}} T^{t}_{\phi}
+		\end{equation}
+	\end{block}
+	\item Our goal is to determine the metric tensor $g$ and the mass-energy tensor $T$ to be able to calculate the $J$ angular momentum and the $I$ moment of inertia. After some algebra we get the final form for $J$:
+	\begin{block}{}
+		\begin{equation}
+			J
+			=
+			I \Omega
+			=
+			- \int \mathrm{d}r\,\mathrm{d}\theta\,\mathrm{d}\phi\,
+			\frac{
+				\left( p + \epsilon \right) \left( \Omega - \omega \right) r^{4} \sin^{3} \left( \theta \right) e^{\nu + \lambda + 2 \mu}
+			}{
+				e^{2 \left( \nu - \mu \right)}
+				-
+				r^{2} \sin^{2} \left( \theta \right) \left( \Omega - \omega \right)^{2}
+			}
+		\end{equation}
+	\end{block}
+\end{itemize}
 
 \end{frame}
