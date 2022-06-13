@@ -1,13 +1,54 @@
 %----------------------------------------------------------------------------------------
-%	SLIDE 3.
+%	SLIDE 2.
 %----------------------------------------------------------------------------------------
 \begin{frame}
 \frametitle{Frame-dragging}
-\framesubtitle{Effect of rotation on moving bodies}
+\framesubtitle{Effect of rotation on metric tensor}
 
-\begin{figure}
-	\includegraphics[scale=0.7]{{./images/frame-dragging.png}}
-	\captionof{figure}{Frame-dragging effect over a massive rotating object on a free-falling body (red) and on a body that tries to move away from it (blue). Frame-dragging induces a force similar to the Coriolis--effect by \q{dragging} the compass of intertia in the direction of the star's rotation. Bodies falling towards the star's center are deflected in the direction of the rotation, while bodies moving away from it are deflected in the opposite direction.}
-\end{figure}
+\begin{itemize}
+	\item The metric tensor in case of a static, stationary star is described in the Schwarzschield metric with $G = c = 1$ contains only diagonal elements
+	\begin{block}{}
+		\begin{equation} \label{eq:1}
+		\begin{aligned}
+			g
+			=
+			d \tau^{2}
+			=
+			e^{2 \nu \left( r \right)} dt^{2}
+			-
+			e^{2 \lambda \left( r \right)} dr^{2}
+			-
+			r^{2} d \theta^{2}
+			-
+			r^{2} sin^{2} \left( \theta \right) d \phi^{2}
+		\end{aligned}
+		\end{equation}
+	\end{block}
+	\item Rotation however introduces off-diagonal elements too (where $\omega \neq 0$ is the angular velocity of local interial frames)
+	\begin{block}{}
+		\begin{equation} \label{eq:2}
+		\begin{aligned}
+			g
+			=
+			d \tau^{2}
+			=&
+			\ e^{2 \nu \left( r, \theta \right)} dt^{2}
+			-
+			e^{2 \lambda \left( r, \theta \right)} dr^{2} 
+			\\
+			&-
+			e^{2 \mu \left( r, \theta \right)}
+			\left[
+				r^{2} d \theta^{2} + r^{2} \sin^{2} \left( \theta \right)
+				*
+				\left(
+					d \phi - \omega \left( r, \theta \right) dt
+				\right)^{2}
+			\right]
+		\end{aligned}
+		\end{equation}
+	\end{block}
+	\item Due to rotation the star deforms around the equator (centrifugal flattening) and loses spherical symmetry
+\end{itemize}
 
 \end{frame}

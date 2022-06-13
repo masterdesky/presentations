@@ -1,0 +1,63 @@
+## Title
+
+
+## Overview
+Arról mindenki hallott - ha máshol nem is, de ezen az órán biztosan -, hogy amikor a newtoni gravitációs modellről áttérünk az általános relativitáselméletre, vagy akár csak a klasszikus mechanikáról a speciális relativitáselméletre, akkor furcsa dolgok történnek. Nagyon furcsa jelenségek jelennek meg, amik még koncepció szintjén se léteztek a newtoni fizikában és egy többé-kevésbé belerondítanak a fizikába.
+
+Pl. azt, amit egy rövid egyenlet addig leírt, azt most már csak egy hosszú, csúnya, sok új dologgal teli egyenlet tudja. De jobb esetben is a jól ismert klasszikus egyenletek vannak valamilyen úgy csúnya taggal felszorozva.
+
+A nagytömegű objektumok forgása, amiről itt szó lesz, pontosan ebbe a kategóriába tartozik, abszolút tankönyvi példája ennek. Magukat a forgó objektumokat már klasszikus mechanikában se szereti senki, de GR-ben ezek még sokkal rosszabbak.
+
+Mi mégis a motiváció arra, hogy ezekkel foglalkozzunk? Hát az, hogy szeretnénk nyilván modellezni a bolygókat, csillagokat, és egyéb közel gömb alakú égi objektumokat. Szeretnénk többet megtudni róluk. Viszont sajnos ezek mindegyike forog. Szóval bármennyire is nem szeretjük a forgó dolgokat, most fel kell vegyük a kesztyűt és átrágnunk magunkat ezen az akadályon.
+
+Hogyan közelítjük meg ezt az egészet?
+- Az első, hogy tárgyaljuk, hogy mi az alapvető különbség a GR és a newtoni forgás között?
+- A következő kettő pedig, hogy ebben a kontextusban megpróbáljuk leírni magát a forgást és meghatározni, hogy a forgás mit mondhat magáról a csillagnak a tulajdonságairól? (Vagy fordítva...)
+
+
+## Frame-dragging effect
+A nagy különbség a GR és a newtoni gravitáció között minden esetben az, hogy a GR-ben van egy téridő nevű izé. Ennek a specialitása az, hogy az anyagsűrűség meghatározza a szerkezetét, míg a szerkezete pedig az anyag mozgását. Ez egy csatolt nem-lineáris rendszer, ezért olyan nehéz ez az egész.
+
+Amikor egy nagytömegű test áthalad a téridőn, akkor magával húzza azt, ez "frame-dragging" effektus. Egészen pontosan a téridőbe helyezett lokális inerciarendszereket torzítja el. A frame-dragging egyol speciális - és itt releváns - példája az, amikor egy test a forgásával húzza magával a téridőt, ez a Lense--Thirring-hatás.
+
+Ennek a fizikai hatása ezen az ábrán látható... Nagyon hasonló ilyenkor a Coriolis-effektushoz.
+
+
+## Frame-dragging on the metric tensor
+- Fizikáról a matekra áttérve: a forgásnak a hatása alapvetően fontos lesz a metrikus tenzorra.
+- Micsoda (1) és (2) egyenlet
+- Megjelenik az omega(r) (frame dragging angular velocity)
+- Megjelenik a theta függés, mert a csillag torzul
+
+
+## Dimensional analysis of omega(r)
+..
+..
+..
+
+## Solution for all r values
+- Ahhoz, hogy leírhassuk pontosan a forgást, a csillag belsején és külsején is érvényes modellt kell alkossunk.
+- A csillag belsejében egy részecskét, vagy folyadékdarabot mind a frame-dragging, mint maga a csillag mozgása befolyásol, ráadásul ez a kettő még csatolva is van. Mivel a frame-draggingnek olyan hatása van egy csillagban forgó részecskére, mintha az Omega-hoz képest lassaban forogna, így a J is csak a kettő különbségétől fog belül függeni.
+- Ez egy bonyolult probléma, amit Hartle szerencsére már megoldott és levezett egy formulát, amiből már meghatározható a perdület.
+- Az előbbihez hasonló dimenzióanalízis során pontosan meghatározható így az omega(r) értéke és annak együtthatója.
+
+## Relativistic stars
+- Van egy kis probléma: Minden fenti eredmény, csak egy "lassan forgó" közelítése egy valódi forgó objektumnak.
+- Nincs még benne a várva várt theta-függés.
+- Pont ez a thetafüggés mutatná, hogy a csillag eltorzul, változik az alakja, változik így a perdület, változik a centrifugális erő, stb.
+- Legfontosabb mennyiség az "I" tehetetlenségi nyomaték, amiből J már meghatározható.
+
+- Rövid összefoglalás csak: a J vektor z-irányú komponense meghatáozható így: ...
+- Ebben a det(g) és a T ami ismeretlen, ezeket kell meghatározni
+- Hosszú számítások után megjapjuk az alábbi formát J-re, amiben már (r, theta) függő mennyiségek szerepelnek.
+
+## Real EoS
+- A fenti egyenletben látszik, hogy a forgás leírásához szükségünk van a nyomás és az energiasűrűség értékekre is, amihez egy használható EoS-re lenne szükségünk.
+
+- Nem egyértelmű probléma, hisz már egyetlen csillagot is néha részenként különböző EoS-vel próbálunk leírni.
+
+- Rengeteg EoS létezik, a könyvben pl. 17 van felsorolva.
+
+- A végén pedig összefoglalóan: Megértettük tehát, hogy a forgó neutroncsillag leírásához szükségünk van mind a frame-dragging effektus, mint pedig a csillag állapotegyenletének a leírására. Állapotegyenletből ismét elmondom, hogy van rengeteg, ez órán is többször elhangzott. Mi viszont szeretnénk eldönteni, hogy ezek közül mégis melyik az igaz?
+
+Az utóbbi kérdést pedig kizárólag úgy tudjuk megválaszolni, ha felderítjük azokat a kényszereket és korlátokat, amik meghatározzák azt a tartományt, amin belül egyáltalán létezhet egy neutroncsillag. A fizikailag helyes állapotegyenletek pedig kizárólag azok lesznek, amik ezen a tartományon belül maradnak és amik az ismert neutroncsillagokat képesek pontosan leírni.

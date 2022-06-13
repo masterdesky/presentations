@@ -1,0 +1,42 @@
+## Title
+Ebben a második előadásban pontosan az első végén említett kérdésről fogok beszélni: Mik azok a különböző fizikai törvények, amik megszabják, hogy mekkora tömeg, sugarú és milyen gyorsan forgó lehet egy neutroncsillag?
+
+
+## Overview
+- Két fajta korlát típust érdemes elkülöníteni: Abszolút és csillagonként egyedi
+- Abszolút: A csillagok lehetséges fizikai paramétereit korlátolja
+- Csillagonkénti: Egy csillag konkrét paraméterei adják meg
+
+- 1. Kép: Az Omega_K tömegfüggése különböző EoS-ekre.
+- 2. Kép: A forgási periódus minimumának tömegfüggése.
+- 3. Kép: A sugár minimumának tömegfüggése. Itt alul csak a GR van jelölve, de itt egyéb fizikai korlátok is léteznek.
+
+
+## Absolute limits
+- Három fontos abszolút limit, mindegyik 1-1 egyenessel írható le.
+- Több lehetőség arra, hogyan ábrázoljuk, de az M-R diagram a leggyakoribb
+- Felsorolás:
+    ..
+    ..
+    ..
+
+
+## Kerpler frequency
+- A legfontosabb, az adott csillag paramétereitől függő limit a Kerpler-frekvencia.
+- Newtoni mechanikában is szerepel: legnagyobb frekvencia, ami mellett a csillag egyenlítőjén mozgó részecske még a csillag felületén marad
+- Efölött a centrifugális erők felülkeverednek a gravitációs vonzáson és az egyenlítő mentén az objektum elkezd szétszakadni
+- Lásd Eq. (1)
+- A GR-ben arra vagyunk kíváncsiak, hogy egy, az egyenlítőn mozgó részecske esetén mekkora az Omega_K értéke? Ez egy egyszerű levezetés során kifejezhető egy V ismeretlen függvényében, ami a vizsgált részecske sebességét jelöli a phi irányban mozgó, ún. zérus perdületű megfigyelőhöz képest. (Tehát akinek a perdülete végtelenben zérus)
+
+- Ebben az egyenletben kizárólag a V érték, ami eddig számunkra egy ismeretlen mennyiség, ezt viszont egy variációs probléma útján megoldhatjuk. Méghozzá a csillag egyenlítőjén vett ívelemre kell egy variációs problémát megoldanunk, ami itt szerepel Eq. (3)-ban.
+- Mindenféle egyéb részletezés nélkül ezt megoldjuk, majd kialgebrázva a megoldást megkapjuk V-re Eq. (4)-ben látható értékek, ahol bevezettük a \psi' jelölést.
+
+
+## A frame-dragging hatása a Kepler-frekvenciára
+- Gondolat: Centrifugális erők csökkennek omega(r) miatt
+- Logikusan azt gondolhatnánk, hogy emiatt a Kepler-frekvencia értéke megnő, azonban pont fordítva van
+- Ezt többféle módon beláthatjuk, mind numerikusan, mind különféle közelítések segítségével (pl. Schwarzschield, Hartle-Thorne perturbative solution, numerical simulations, etc.)
+
+## Gravitációs hullám instabilitások
+
+Gravitational wave radiation. Vibrations above a critical frequency in viscous stars produce gravitational waves that carry away energy and angular momentum, thus slowing the rotation of the star.

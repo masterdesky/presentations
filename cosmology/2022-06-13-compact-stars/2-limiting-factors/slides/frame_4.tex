@@ -1,0 +1,39 @@
+%----------------------------------------------------------------------------------------
+%	SLIDE 3.
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Kepler frequency in GR}
+
+\begin{itemize}
+	\item To only unknown in Eq. \eqref{eq:2} is the $V$ velocity of a fluid element along the equator. This can be determined by finding the extremum of
+	\begin{block}{}
+		\begin{equation} \label{eq:3}
+			\mathrm{d}\tau
+			=
+			\int_{t_{1}}^{t_{2}} \mathrm{d}t\,
+			\sqrt{
+				e^{2 \nu} - r^{2} e^{2 \mu} \left( \Omega - \omega \left( R \right) \right)^{2}
+			}
+		\end{equation}
+	\end{block}
+	\item After solving the variational problem and expanding $V$, we get the solution as
+	\begin{block}{}
+		\begin{equation} \label{eq:4}
+			V_{\pm}
+			=
+			\frac{R \omega'}{2 \psi'} e^{\mu - \nu}
+			\pm
+			\sqrt{
+				\frac{\nu'}{\psi'}
+				+
+				\left(
+					\frac{R \omega'}{2 \psi'} e^{\mu - \nu}
+				\right)^{2}
+			},
+		\end{equation}
+	\end{block}
+	where $\psi' = \mu' + 1 / R$
+	\item The physically interesting result is given by $V_{+}$, since that is the co-rotating case needed for Eq. \eqref{eq:2}.
+\end{itemize}
+
+\end{frame}
