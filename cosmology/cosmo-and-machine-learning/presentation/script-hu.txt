@@ -12,5 +12,25 @@ A technológiai ismereteink az elmúlt évtizedekben exponenciális mértékben 
 
 Ahogy ennek hatására a csillagászati megfigyelések errorbarjai is csökkentek, elkezdtek kibukkanni meglepő, nem feltétlenül várt problémák a LambdaCDM modellben. Mára pedig eljutottunk oda, hogy már alapvető, kritikus kérdésekben is számtalan helyen tér el a megfigyelés a LambdaCDM által jósolt értékektől. A legismertebb ezek közül talán a "Hubble tension". A Hubble paraméter értékét különböző jelenségekből megmérve, különböző értékeket kapunk eredményül, amik egymástól hibahatáron bőven kívül esnek. Pl. a mikrohullűmú háttérsugárzásból megmért Hubble paraméter a 2018-as Planck eredmények alapján kb. 67.4 km/s/Mpc, míg a szupernóvák segítségével a kozmikus létra alapján számolt érték kb. 73 km/s/Mpc.
 
-Ez csak egy példa a sok közül, azonban a kozmológiai kutatások és projektek szinte mindegyike ma már a felmerülő problémák megoldására, a LambdaCDM modell kibővítésére, vagy éppenséggel egy új, alternatív modell fejlesztésére fókuszál. Számos modell kérdőjelezi meg a "sötét energia" létezését, aminek a LambdaCDM modellben az univerzum gyorsuló tágulását köszönhetjük.
+Ez csak egy példa a sok közül, azonban a kozmológiai kutatások és projektek szinte mindegyike ma már a felmerülő problémák megoldására, a LambdaCDM modell kibővítésére, vagy éppenséggel egy új, alternatív modell fejlesztésére fókuszál.
 
+======
+
+Hogyan segítenek nekünk a számítógépes szimulációk ebben a kérdésben?
+
+Én ezt a legelső ponthoz írt mondattal tudnám a legjobban megfogalmazni. Az emberiség ma egyetlen univerzumot ismert és ez az egyetlen így, amiben megfigyeléseket tud végezni. A szimulációk viszont lehetővé teszik számunkra, hogy még sok ezernyi és milliónyi újabb univerzumot hozzunk létre magunknak, amikben további megfigyeléseket végezhetünk.
+
+A szimulációk használatának motivációja statisztikai indíttatású. Már önmagában egyetlen szimuláció is - melyben sokmillió, milliárd, esetleg trillió(!) szimulált részecske található - egy statisztikai szemszögből is elemezhető adatsornak számít. Ilyen szimulációk egész kollekciója pedig még inkább betekintést nyújthat egyéb, globális összefüggésekre. A gyakorlatban ez legtöbbször az anyagsűrűség által meghatározott teljesítményspektrum kiszámításával, vagy származtatott fizikai mennyiségek, mezők kiszámításával történik. (Egy ilyen teljesítményspektrum látható a jobb oldali képen is, melyen az elméleti görbe, valamint az elmúlt évek fontosabb égbolt-felmérő projektjei során mért értékek láthatóak.)
+
+Szimulációk készíthetőek kisebb és nagyobb skálákon is, ez csupán a vizsgálandó kérdéstől függ. Olyan lokális effektusok vizsgálata, amik csak galaxisokat, vagy közeli galaxiscsoportokat érintenek (pl. dark matter halo), az kis méretskálájú szimulációkkal végzendő. Értelemszerűen egyéb esetben a nagyobb méretskálájú szimulációk használata a szükséges. A nagy méretskála itt azt jelenti, hogy az univerzum nem egy galaxisméretű tartománya van szimulálva, hanem annak néhány tucattól egészen több ezer Mpc-ig terjedő nagyságú területe.
+
+======
+
+Én itt csak a nagyskálás szimulációkra fogok kitérni. Ezek működése és felépítése mögötti gondolat roppant egyszerűen megérthető:
+1. Egy közel homohén eloszlású részecskefelhőt/sűrűségmezőt kell a CMB-ből legenerálni.
+2. Ezeket kell az ismert newtoni és friedmanni egyenletek alapján aztán tovább fejleszteni, míg ki nem jön valami értelmes.
+Az ilyen szimulációk mindig az univerzum egy kezdeti állapotából, a renormáció időszakából indítjuk és a jelen korik (z=0) futtatjuk.
+
+=======
+
+Ha minden jól sikerült, akkor ilyesmi képeket fogounk a végén kapni, amiket látszik az univerzum, agyi neuronhálóra hasonlító szerkezete. Ez a szimuláció előrehaladtával pedig egyre értelemszerűbben meglátszik az eredményekben.
