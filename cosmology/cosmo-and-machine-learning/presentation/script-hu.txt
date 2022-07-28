@@ -33,4 +33,4 @@ Az ilyen szimulációk mindig az univerzum egy kezdeti állapotából, a renorm�
 
 =======
 
-Ha minden jól sikerült, akkor ilyesmi képeket fogounk a végén kapni, amiket látszik az univerzum, agyi neuronhálóra hasonlító szerkezete. Ez a szimuláció előrehaladtával pedig egyre értelemszerűbben meglátszik az eredményekben.
+Ha minden jól sikerült, akkor ilyesmi képeket fogounk a végén kapni, amiken látszik az univerzum, agyi neuronhálóra hasonlító szerkezete. Ez a szimuláció előrehaladtával pedig - a homogénnek látszó kezdőfeltételtől egyre inkább eltávolodva - egyre értelemszerűbben meglátszik az ereményekben.
