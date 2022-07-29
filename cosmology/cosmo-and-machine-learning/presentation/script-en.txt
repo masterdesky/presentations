@@ -1,0 +1,94 @@
+The topic I would like to talk about is astronomy, or more precisely it's cosmology in general. I know it sounds quite vague, and you're correct thinking that. This field of science that we call astronomy has grown into a truly extensive interdisciplinary field as we know it today.
+
+It had plenty of time for this, because astronomy, and perhaps cosmology is the oldest science of humankind. Although it has gone through countless changes over the years, completely transforming it down to the core, its purpose has always remained the same: to describe the world, our universe on a scale that is completely inconceivably for us. While cosmology used to be limited only to creation myths (cosmogony) and theology, today it follows scientific methodology.
+
+So as I mentioned, the goal of astronomy and especially cosmology has always been the large-scale description of the universe, but let's talk a little bit about the actual situation and goals of modern cosmology?
+
+Despite the fact that it is such an old science, the majority - if not all - of what we know about cosmology today, what we theorized, discovered etc., first appeared in the 20th century. Without telling the interesting but long narratives of science history, in the 20th century cosmology and particle physics were developed in the same mindset.
+
+What do I mean by that? In the same way particle physics tries to describe physics at the microscopic level using the Standard Model, cosmology also tries to describe macroscopic things with its own Standard Model. And this is referred to simply as the "cosmological standard model".
+
+In cosmology, there are many candidates to take the place of this model. Of these, however, the LambdaCDM model is accepted by scientific consensus today. In its name, "lambda" refers to the cosmological constant, while "CDM" refers to "cold dark matter". In a nutshell, it says that the normal matter that we can see, the baryonic matter, exists in the universe, but the universe is filled to a much greater extent by something called "dark matter" and "dark energy". And since the Big Bang, the interaction of these three and the resulting effects determine the development of the universe. But that's really just in a nutshell.
+
+Our technological knowledge has grown exponentially in recent decades. This proved to be decisive in all fields of science, because the accuracy of our instruments improved enormously, the available computing power increased by orders of magnitude, and our data storage capacity also increased exponentially during this time.
+
+As the error bars of astronomical observations also decreased as a result of this, surprising, not necessarily expected problems began to appear in the LambdaCDM model. And today we have come to the point where, even in basic, critical issues, the monitoring deviates from the values ​​predicted by LambdaCDM in countless places. The best known of these is probably the "Hubble tension". By measuring the value of the Hubble parameter from different phenomena, we get different values, which are well outside the margin of error. For example, the Hubble parameter measured from the microwave background radiation is approx. 67.4 km/s/Mpc, while the value calculated on the basis of the cosmic ladder with the help of supernovae is approx. 73 km/s/Mpc.
+
+This is just one example among many, however, almost all cosmological research and projects now focus on solving emerging problems, expanding the LambdaCDM model, or even developing a new, alternative model.
+
+=======
+
+How do computer simulations help us with this question?
+
+I could best express this with the sentence written for the very first point. Humanity today knows only one universe and it is the only one in which it can make observations. Simulations, on the other hand, allow us to create many thousands and millions of new universes for ourselves, in which we can make further observations.
+
+The motivation for using simulations is statistical. A single simulation in itself - in which there are many millions, billions, even trillions (!) of simulated particles - is considered a data set that can be grasped from a statistical point of view. And a whole collection of such simulations can provide even more insight into other, global contexts. In practice, this is mostly done by calculating the power spectrum determined by the material density, or by calculating and analyzing derived physical quantities. (Such a power spectrum can also be seen in the image on the right, which shows the theoretical curve as well as the values ​​measured during the most important sky survey projects of recent years.)
+
+Simulations can be made on both smaller and larger scales, it just depends on the question to be investigated. The investigation of local effects that only affect galaxies or nearby galaxy groups (e.g. dark matter halo) should be done with small-scale simulations. By definition, in other cases, the use of larger scale simulations is necessary. The large size scale here means that not a galaxy-sized region of the universe is simulated, but an area ranging from a few tens to thousands of Mpc.
+
+======
+
+There are not so many types of simulations, actually two are worth distinguishing: N-body simulations and hydrodynamic simulations.
+
+In the case of N-body simulations, we simulate particles with mass, which are most often interpreted as "bound dark matter clumps". A particle in this case should be interpreted as the dark matter halo of galaxies. Their systems are then developed based on the equations of motion of Newtonian gravity.
+
+In the case of hydrodynamic simulations, a density distribution is simulated, which corresponds to a discrete grid of the simulation volume. It is possible to simulate countless physically distinguishable things, e.g. stars, gas and the structural parts of galaxies (eg galaxy nucleus, disk of the galaxy), etc. Hydrodynamic simulations are typically used for these. But dark matter simulations can also be run in this way.
+
+This requires significantly more work and much more complex formulas than an N-body simulation, which makes it much more difficult to write a numerical hydro code. However, it is not impossible at all, there are countless of them. Similar to the N-body simulations, however, in this case too we use fully classical formulas.
+
+======
+
+How should a simulation be imagined at all?
+
+I will only cover large-scale simulations here. The idea behind their operation and structure is very simple to understand:
+0. The simulations are most often run in a cube-shaped box, with periodic boundary conditions applied to each wall.
+1. In the first step, a nearly homogeneously distributed density field must be generated from the CMB. In the case of N-body simulations, this density field is embodied by a specific particle distribution, while in the case of hydrodynamic simulations it is the density field itself, which numerically corresponds to a discrete grid of the simulated box/volume. This will be our starting condition.
+2. This must then be further developed based on the known Newtonian gravity equations and the Friedmann equation.
+3. Such simulations are always started from an early period of the universe and run until the present age (z=0). (This usually depends on how the initial conditions were generated.)
+
+=======
+
+If everything went well, we will end up with pictures like this, which show the structure of the universe, which resembles a brain neuron network. As the simulation progresses, this becomes more and more apparent, moving further and further away from the seemingly homogeneous starting condition.
+
+
+=======
+
+Let's move on to the next topic: machine learning, or machine learning in Hungarian.
+
+Why do we even need to talk about this in relation to astronomy? I also wanted to write an introduction to what machine learning is, because that way the presentation would be much more unified and easier to understand, but I'm leaving it out now, because I felt that it would take too long.
+
+In a single sentence, I would only mention that machine learning is the tool that played and still plays a decisive role in the processing of large data sets (big data), because it either reduced the size of the resources required for processing by orders of magnitude, or it was able to achieve much more accurate results. than traditional methods. This is exactly the reason why a wide variety of machine learning solutions are used in virtually every field of astronomy.
+
+Although this would require further explanation, this field of science was one of the first in which the term "big data" was seriously mentioned. This arose in connection with the Sloan Digital Sky Survey telescope, which, starting in 2000, photographed a significant area of ​​the sky, collecting countless spectroscopic and photographic data about stars and galaxies.
+
+Since then, countless sky survey projects have been launched and sent back a huge amount of data, for the processing of which machine learning provided and will continue to provide essential help even in the near future.
+
+But from the point of view of this presentation, an important question is whether you can provide us with any help in the case of cosmological simulations? And the answer is spoiled by the slide that, of course, yes!
+
+========
+
+This is what the data series called CAMELS, which was created to map another known problem of the LambdaCDM model, the Omega_m-sigma_8 tension, is meant to show. Similar to the Hubble tension, here too there is a difference between the different measurement data, which can be observed when plotted in the space of two important cosmological parameters, Omega_m and sigma_8 (see figure).
+
+You can see what the name CAMELS means in the first line. I think an "and" would have fit between the words "machine learning" and "simulations". What we are talking about here is that this is a database of cosmological simulations that were specifically developed for analysis with machine learning. All simulations have the same parameters, but differ in the omega_m and sigma_8 parameters.
+
+========
+
+Each simulation contains 12+1 fields, such as dark matter density field, stellar density, gas pressure, metallicity of stars and gas, etc. This is the teaching set. Each simulation has 6 quantities, these are the target values/labels. 2 of these are the Omega_m and sigma_8 parameters, and 4 others are in this case "noise-like" quantities that arise from astrophysical effects. The goal here is to estimate the first two as accurately as possible, while filtering out and ignoring the noise as best as possible.
+
+========
+
+And the results speak for themselves. They show that the set goal is quite large, approx. It is really possible with 2-3% accuracy. I taught a very simple CNN, separately in each field of the data series, each 12+1 field has 1-1 of the same 2x3 figure. The results for the dark matter density field are shown here. It is clearly seen that the two cosmological parameters were estimated with very high accuracy, while the noises were completely filtered out.
+
+========
+
+Now that we have covered all the information so far, I would also like to say a few words about my current specific research, for which I delved into the topics detailed above.
+
+Approaching the evolution of the structure of the universe and the matter in it with the Newtonian gravity model is acceptable to a fairly decent level. However, as I said, precision astronomy has pointed out countless errors in the current standard model of cosmology, which are not at all certain to be solved by this type of simulation.
+
+By definition, the best way would be if we could run and examine GR-based simulations, since they are much closer to reality and capture phenomena that cannot be detected with Newtonian simulations. The idea is that since Einstein's equations are highly non-linear, there may be countless effects that do not appear in the case of Newtonian gravity, which influence the evolution of the universe much more strongly than we think.
+
+There are two problems with this:
+- Einstein's equations can only be solved numerically in a very special formalism and require significant resources
+- It is incredibly difficult to create a numerical algorithm for them.
+
+For this reason, there are a total of two public codes that are capable of creating real GR simulations, and only one of them is really suitable for us to use with a lot of headaches.

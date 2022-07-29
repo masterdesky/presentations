@@ -18,19 +18,76 @@ Ez csak egy példa a sok közül, azonban a kozmológiai kutatások és projekte
 
 Hogyan segítenek nekünk a számítógépes szimulációk ebben a kérdésben?
 
-Én ezt a legelső ponthoz írt mondattal tudnám a legjobban megfogalmazni. Az emberiség ma egyetlen univerzumot ismert és ez az egyetlen így, amiben megfigyeléseket tud végezni. A szimulációk viszont lehetővé teszik számunkra, hogy még sok ezernyi és milliónyi újabb univerzumot hozzunk létre magunknak, amikben további megfigyeléseket végezhetünk.
+Én ezt a legelső ponthoz írt mondattal tudnám a legjobban megfogalmazni. Az emberiség ma egyetlen univerzumot ismer és ez az egyetlen így, amiben megfigyeléseket tud végezni. A szimulációk viszont lehetővé teszik számunkra, hogy még sok ezernyi és milliónyi újabb univerzumot hozzunk létre magunknak, amikben további megfigyeléseket végezhetünk.
 
-A szimulációk használatának motivációja statisztikai indíttatású. Már önmagában egyetlen szimuláció is - melyben sokmillió, milliárd, esetleg trillió(!) szimulált részecske található - egy statisztikai szemszögből is elemezhető adatsornak számít. Ilyen szimulációk egész kollekciója pedig még inkább betekintést nyújthat egyéb, globális összefüggésekre. A gyakorlatban ez legtöbbször az anyagsűrűség által meghatározott teljesítményspektrum kiszámításával, vagy származtatott fizikai mennyiségek, mezők kiszámításával történik. (Egy ilyen teljesítményspektrum látható a jobb oldali képen is, melyen az elméleti görbe, valamint az elmúlt évek fontosabb égbolt-felmérő projektjei során mért értékek láthatóak.)
+A szimulációk használatának motivációja statisztikai indíttatású. Már önmagában egyetlen szimuláció is - melyben sokmillió, milliárd, esetleg trillió(!) szimulált részecske található - egy statisztikai szemszögből is megfogható adatsornak számít. Ilyen szimulációk egész kollekciója pedig még inkább betekintést nyújthat egyéb, globális összefüggések mögé. A gyakorlatban ez legtöbbször az anyagsűrűség által meghatározott teljesítményspektrum kiszámításával, vagy származtatott fizikai mennyiségek kiszámításával és elemzésével történik. (Egy ilyen teljesítményspektrum látható a jobb oldali képen is, melyen az elméleti görbe, valamint az elmúlt évek fontosabb égbolt-felmérő projektjei során mért értékek láthatóak.)
 
 Szimulációk készíthetőek kisebb és nagyobb skálákon is, ez csupán a vizsgálandó kérdéstől függ. Olyan lokális effektusok vizsgálata, amik csak galaxisokat, vagy közeli galaxiscsoportokat érintenek (pl. dark matter halo), az kis méretskálájú szimulációkkal végzendő. Értelemszerűen egyéb esetben a nagyobb méretskálájú szimulációk használata a szükséges. A nagy méretskála itt azt jelenti, hogy az univerzum nem egy galaxisméretű tartománya van szimulálva, hanem annak néhány tucattól egészen több ezer Mpc-ig terjedő nagyságú területe.
 
 ======
 
-Én itt csak a nagyskálás szimulációkra fogok kitérni. Ezek működése és felépítése mögötti gondolat roppant egyszerűen megérthető:
-1. Egy közel homohén eloszlású részecskefelhőt/sűrűségmezőt kell a CMB-ből legenerálni.
-2. Ezeket kell az ismert newtoni és friedmanni egyenletek alapján aztán tovább fejleszteni, míg ki nem jön valami értelmes.
-Az ilyen szimulációk mindig az univerzum egy kezdeti állapotából, a renormáció időszakából indítjuk és a jelen korik (z=0) futtatjuk.
+Nincsen annyira sok típusú szimuláció, igazából kettőt érdemes csak megkülönböztetni: Az N-test szimulációkat és a hidrodinamikai szimulációkat.
+
+Az N-test szimulációk esetén tömeggel rendelkező részecskéket szimulálunk, amiket leggyakrabban "kötött sötét anyag csomókként" interpretálunk. Úgy kell egy részecskét ebben az esetben értelmezni, mint a galaxisok sötét anyag haloja. Ezeknek a rendszere ezután a newtoni gravitáció mozgásegyenletei alapján vannak fejlesztve.
+
+Hidrodinamikai szimulációk esetén egy sűrűségeloszlást szimulálunk, ami a szimulációs térfogat diszkrét rácsozásának felel meg. Számtalan fizikailag megkülönböztethető dolgot lehetséges szimulálni, pl. csillagok, gáz és a galaxisok strukturális részei (mint pl. galaxismag, disk of the galaxy) stb. Ezekhez tipikusan gidrodinamikai szimulációkat szokás használni. De sötét anyag szimulációkat is lehet ilyen módon futtatni.
+
+Ez már jelentősen több munkát és jóval komplexebb formulákat igényel, mint egy N-test szimuláció, emiatt sokkal nehezebb egy numerikus hidro kód megírása. Azonban egyáltalán nem lehetetlen, ilyenből számtalan létezik. Az N-test szimulációkhoz hasonlóan azonban ebben az esetben is teljes mértékben klasszikus formulákat alkalmazunk.
+
+======
+
+Hogy kell elképzelni egyáltalán egy szimulációt?
+
+Én itt most csak a nagyskálás szimulációkra fogok kitérni. Ezek működése és felépítése mögötti gondolat roppant egyszerűen megérthető:
+0. A szimulációk leggyakrabban egy kocka alakú dobozban futnak, aminek minden falánál periodikus határfeltételeket alkalmazunk.
+1. Első lépésben egy közel homogén eloszlású sűrűségmezőt kell a CMB-ből generálni. Ezt a sűrűségmezőt N-test szimulációk esetén egy konkrét részecske-eloszlás testesíti meg, míg hidrodinamikai szimulációk esetén maga sűrűségmező, ami numerikusan a szimulált doboz/térfogat egy diszkrét rácsozásának felel meg. Ez lesz a kezdőfeltételünk.
+2. Ezt kell aztán az ismert newtoni gravitációs egyenletek és Friedmann-egyenlet alapján tovább fejleszteni.
+3. Az ilyen szimulációkat mindig az univerzum egy korai időszakából indítjuk és a jelen korig (z=0) futtatjuk. (Ez általában attól függ, hogy a kezdeti feltételeket milyen módon generáltuk.)
 
 =======
 
-Ha minden jól sikerült, akkor ilyesmi képeket fogounk a végén kapni, amiken látszik az univerzum, agyi neuronhálóra hasonlító szerkezete. Ez a szimuláció előrehaladtával pedig - a homogénnek látszó kezdőfeltételtől egyre inkább eltávolodva - egyre értelemszerűbben meglátszik az ereményekben.
+Ha minden jól sikerült, akkor ilyesmi képeket fogounk a végén kapni, amiken látszik az univerzum, agyi neuronhálóra hasonlító szerkezete. Ez a szimuláció előrehaladtával pedig - a homogénnek látszó kezdőfeltételtől egyre inkább eltávolodva - egyre jobban és jobban kirajzolódik.
+
+
+=======
+
+Térjünk át a következő témára: a machine learningre, vagy magyarul gépi tanulásra.
+
+Miért is kell beszélnünk erről a csillagászattal kapcsolatban? Akartam egy bevezetőt írni annak is, hogy egyáltalán mi az a gépi tanulás, mert úgy önmagában sokkal egységesebb és jobban érthető lenne az előadás, de ezt most kihagyom, mert úgy éreztem, hogy túl hosszúra nyúlna úgy az egész.
+
+Egyetlen mondatban csak annyit említenék meg, hogy a machine learning az az eszköz, ami döntő szerepet játszott és játszik most is nagyméretű adatsorok (a big data) feldolgozásában, hisz vagy nagyságrendekkel csökkentette a feldolgozáshoz szükséges erőforrások méretét, vagy sokkal pontosabb eredmények elérésére volt képest, mint a hagyományos módszerek. Pontosan ez az oka annak, ami miatt a csillagászat tulajdonképpen minden területén alkalmazzák a legkülönfélébb gépi tanulási megoldásokat.
+
+Habár ez további magyarázatra szorulna, ez a tudományterület volt az egyik első, aminek kapcsán a "big data" kifejezés komolyan volt emlegetve. Ez a Sloan Digital Sky Survey teleszkóp kapcsán merült fel, mely 2000-től kezdődően az égbolt jelentős területét végigfotózta, számtalan spektroszkópiai és fotografikus adatot gyűjtve csillagokról és galaxisokról.
+
+Azóta számtalan égbolt felmérő projekt indult és küldött vissza hatalmas mennyiségű adatot, melyek feldolgozásához a gépi tanulás elengedhetetlen segítséget nyújtott és fog nyújtani azért még a közeljövőben is.
+
+Na de ezen előadás szemponjából fontos kérdés, hogy nyújthat-e bármilyen segítséget számunkra a kozmológiai szimulációk esetén? A választ pedig a dia elspoilerezi, hogy természetesen, igen!
+
+========
+
+Ezt hivatott bemutatni a CAMELS nevű adatsor, ami a LambdaCDM modell egy másik ismert problémájának, az Omega_m-sigma_8 tension feltérképezéséhez készült. Hasonlóan a Hubble-tensionhöz, itt is a különböző mérési adatok között van eltérés, ami két fontos kozmológiai paraméter, az Omega_m és a sigma_8 terében ábrázolva figyelhető meg (lásd ábra).
+
+Hogy mit is jelent a CAMELS elnevezés, az látható az első sorban. Szerintem egy "and" szócska még elfért volna a "machine learning" és a "simulations" szó között. Itt ugyanis arról van szó, hogy ez olyan kozmológiai szimulációk adatbázisa, amiket kifejezetten gépi tanulással való elemzésre fejlesztettek ki. Minden szimuláció azonos paraméterekkel rendelkezik, azonban eltér az omega_m és sigma_8 paraméterekben. 
+
+========
+
+Minden szimuláció 12+1 mezőt tartalmaz, például a sötét anyag sűrűségmezőjét, a csillagok sűrűségét, a gáznak a nyomását, a csillagok és gázok fémtartalmát stb. Ez a tanítóhalmaz. Minden egyes szimulációhoz tartozik 6 darab mennyiség, ezek a célértékek/labelök. Ezek közül 2 az Omega_m és sigma_8 paraméter, 4 másik pedig jelen esetben "zaj-szerű" mennyiségek, amik asztrofizikai effektusokból fakadnak. A cél itt az, hogy az első kettőt minél pontosabban megbecsüljük, míg a zajokat a lehető legjobban kiszűrjük, figyelmen kívül hagyjuk.
+
+========
+
+Az eredmények pedig magukért beszélnek. Azt mutatják, hogy a kitűzött cél elég nagy, kb. 2-3%-os pontossággal tényleg lehetséges is. Én egy egészen egyszerű CNN-t tanítottam, külön-külön az adatsor egyes mezőin, mind a 12+1 mezőhöz tartozik 1-1 ugyanilyen 2x3-as ábra. Ezen a sötétanyag sűrűségmezejéhez tartozó eredmények láthatóak. Egyértelműen látszik is, hogy a két kozmológiai paramétert nagyon nagy pontossággal sikerült megbecsülni, míg a zajokat sikerült teljes mértékben kiszűrni.
+
+========
+
+Most, hogy minden eddigi információn túlvagyunk, beszélnék néhány szót a jelenlegi konkrét kutatásomról is, amihez a fent részletezett témákba ástam bele magam.
+
+Az, hogy a newtoni gravitácis modellel közelítjük az univerzum és a benne található anyag struktúrájának fejlődését, egy egészen tisztességes szintig elfogadható. Azonban ahogy elmondtam, a precíziós csillagászat számtalan hibára mutatott rá a jelenlegi kozmológiai standard modellben, amik egyáltalán nem biztos, hogy megoldhatóak az ilyen típusú szimulációkkal.
+
+Értelemszerűen a legjobb út az lenne, ha GR alapú szimulációkat futtathatnánk és vizsgálhatnánk, hisz azok sokkal közelebb állnak a valósághoz és a newtoni szimulációkkal kimutathatatlan jelenségek megragadásához. Az ötlet, hogy mivel az Einstein egyenletek erősen nem lineárisak, így számtalan olyan, newtoni gravitáció esetében nem megjelenő hatás létezhet, amik sokkal erősebben befolyásolják az univerzum fejlődését, mint gondoljuk.
+
+Ezzel két probléma van:
+- Az Einstein egyenletek csak nagyon speciális formalizmusban oldhatóak meg numerikusan és jelentős erőforrásokat igényelnek
+- Elképesztően nehéz rájuk numerikus algoritmust készíteni.
+
+Emiatt összesen két publikus kód létezik, ami valódi GR szimulációk készítésére képes, ezek közül pedig igazán csak az egyik megfelelő arra, hogy sok fejfájással, de használjuk is.
+
