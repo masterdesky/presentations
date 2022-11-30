@@ -1,0 +1,61 @@
+Hello everyone! I would like to give you a presentation about an observation that everyone heard about and that was carried out by the Event Horizon Telescope collaboration just a couple of years ago.
+
+------
+
+I'll give you a short summary in a nutshell at the beginnining, just to give you the context what's this observation was about. As you can also read it off from the slide, on the 10th of April, 2019, the EHT collaboration published the very first image of a supermassive black hole (SMBH for short) that is located in the center of the M87 galaxy. This galaxy is one of the largest known galaxies in the observable universe, it is also one of the brightest radio source on the sky. This simlpy means that this galaxy is very easy to observe and thus it was always a very popular, widely observed celestial target. This is one part of the story.
+
+The second part is that as it was long time theoretized, there is a supermassive black hole at the center of probably every galaxy. And of course, lots of other smaller black holes fill the denser regions of the universe. But up until 2019 we were never ever able to observe a black hole directly. We of course had indirect observations, like eg. the various gravitational wave detections starting from 2015 or measuring tracejtories of celestial objects oribiting closely around the center of our galaxy.
+
+But basically this EHT observation, the results of which were only revealed in 2019 was the first direct observation of an actual black hole. This was an incredibly huge milestone for radio astronomy and for physics also, since it showed that black holes can be studied with direct observations in the electromagnetic domain.
+
+------
+
+Why are we doing this? Why is it important? What we're trying to achieve by photographing a black hole? As a huge portion of reasearch in astronomy, this one is also part of The bigger picture. The immediate reason is that we want to conduct tests of Einstein's General Relativity. And although black holes are maybe the "simplest" predictions and earliest solutions of the Einstein's Field Equations, this field is heavily unexplored from the observational point of view. So naturally every new experiment and reasearch that involve direct or even indirect observations are extremely valuable in this field.
+
+And the next question is that: then why are we trying to conduct tests of General Relativity? And the answer is to better understand our universe and to improve the cosmological standard model, the Lambda-CDM that describes it and which theory suffers from many different problems currently. I listed here two of the most famous one here, like the measured value of the Hubble constant is different for measurements made from the CMB and from SN, this should not be the case according to the LCDM. There are also violations of homogeneity and isotropy: it seems that the universe have some form of directional symmetry that is also incoherent with the LCDM. So we obviously want to conduct as many observational research as possible in unexplored topics to get a better view on details that we're uncertain of and then improve our models accordingly.
+
+------
+
+Now after all this cosmology, let's talk a bit about what exactly was observed? What can we see on this image? So this presentation is about the M87 black hole image, but virtually all information I'm telling you today, overlaps for both the M87* (this actually the name of the black hole in the center of the M87 galaxy) and the Milky Way's supermassive black hole, the Sagittarius A*. The latter was also observed by the EHT collaboration and it was published in 2021.
+
+And here on this figure you can see a size comparsion for both of these black holes. You can see the size of Pluto's orbit and the position of the Voyager 1 space probe is also shown on left image for the M87*. While on the right side you can see that the Sagittarius A* is substantially smaller.
+
+What we see on these images are the swirling plasma that orbits the black holes with a velocity close to the speed of light, this is called the accretion disk. And the dark spot in the middle, you can see what we refer to as the "shadow of the black hole". What is it exactly? I think on a physics lecture it's pretty common knowledge that a black hole has a boundary called event horizon, that is the "point of no return". If something crosses this boundary, it can never escape it's gravitational pull. However the reality is that there is a region outside of the event horizon too that basically has this exact property. There is a region srrounding the event horizon, where any form of material is very highly unlikely to escape even though it isn't crossed the event horizon yet. And this region is referred to as the "shadow" of the black hole and this is what we see on these images exactly.
+
+------
+
+I would like to talk about the radio astronomical aspects of this topic too. Creating this photograph was made possible using the Very-Long-Baseline Interferometry technique that we've heard about on the classes of this radio astronomy course this semester. So just a short recap to remain unequivocal: The method of VLBI uses several radio telescopes at greater distances from each other to measure the radio signals of the same object. Then using the laws of electromagnetic interferometry, we can calculate the time-averaged cross-correlation for every pairwise detection in our array of telescopes. However if we write up the equation for this cross-correlation, we can notice that this is just a Fourier transform, and the cross-correlated values are just the value of the original signal at the (u, v) location in the frequency domain. The `l` and `m` coordinates are here the position of a single point on the source of the signal, while `u` and `v` here are distance of the two measuring locations in the frequency domain.
+
+Translating this to a much simpler conclusion, if we use even more distant measuring locations (more distant radio telescopes) we get a better resolution for our frequency domain, while employing more measuring locations, more radio telescopes, we get more sample points to work with.
+
+After we made several measurements in the Fourier space, we obtain a very low resolution representation of the original source. So as a final step, we have to appropriately deconvolve it, to upsample it. So we want to reconstruct the original image of the source from this low resolution representation in as high detail as possible. And then I skipped speaking about all the error correction, noise filtering and optimization that are essential for these measurements.
+
+------
+
+In the observation of the M87*, two large radio telescope arrays were involved, the Event Horizon Telescope array (EHT for short) and the Global mm-VLBI Array (GLVA for short),
+
+------
+
+On this image you can see the distribution of the telescopes and telescope systems involved in the EHT projects for the 2019 observation of M87* and later in 2021 in the observation of the Sagittarius A*. You can see there are many of them, scattered around everywhere on half of the globe.
+
+------
+
+But there are two important very important components in this project that maybe contributed the most to the creation of this photograph.
+
+On of them was the inclusion of the ALMA telescope array in the list of the measuring instruments. Although this was the first time of this telescope array to be involved in a VLBI measurement, it was immediately assigned a flag-ship role in this project. This is at a great location with perfect atmospheric conditions. It is positioned in a central location in the EHT array and it's one of the most sensitive radio telescope array in the world currently. This enabled the EHT array to boost its SNR ratio by an order of magnitude, which is a HUGE improvement! ALMA on itself transformed the ETH array into a real imaging array from being simply just a "flux density distribution measuring instrument".
+
+The second important component in the project was the data processing pipeline. After the measurement was done, data were collected by radio astronomers, computer physicists took over and proceeded with the data procession and the image reconstruction. However the way it worked was an interesting concept.
+
+This processing and imaging part constituted of two stages. In the first stage, 4 different teams were assigned to independently reconstruct the black hole image without any communication about it with the other teams. Two of the teams were using the renowned and widely used CLEAN algorithm, while two other teams were using a new algorithm, developed recently for the ETH project, called the CHIRP algorithm. This algorithm was shown to outperform every prior methods in radio astronomy. So it was an important element in this process and it was also a huge test of this algorithm.
+
+The goal was to get an independent set of reconstruction parameters and to discover common features among different reconstruction techniques that could help the final, actual reconstruction in the second stage.
+
+And then yes, in the second stage several images were generated using a broad set of different parameters and then they were compared to groundtruth images to objectively select reconstruction parameters.
+
+So it was an interesting, absolutely not conventional data processing pipeline. But the results was really a huge milestone for all of science.
+
+------
+
+T final image of the M87* and the Sagittarius A* makes it clear that now it is entirely possible to directly observe the black hole shadows of SMBHs, finally making this abstract mathematical concept after more that a 100 years into physical, observable reality.
+
+Thank you for your attention!
