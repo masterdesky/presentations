@@ -1,0 +1,57 @@
+
+Hi everyone! Today I'll talk about the heliosphere, that is usually refers to the volume that contains and bounds our Solar System. In this presentation I'll talk about it's discovery, I'll tell you what exactly is the "heliosphere", how the relevant physical processes create the heliosphere and also talk about some closely related, important and interesting physical phenomena. Since most of the chapters like this one, are quite short in this book and it's easy to get through all the material in it, I tried to spice it up just a bit to make the presentation more interesting and also longer than 8 minutes.
+
+--------
+
+First things first as I mentioned, let's talk about the observations that were precursor to the discovery of the heliosphere and the related phenomena.
+
+It was first discovered in the 1950s that the gas or ion tail of a comet doesn't line up with the trajectory of the comet itself. When a comet approaches the Sun, its material starts to vaporize and starts streaming out from the comet. To our current understanding this material stream could contain either some type of gas or dust particles, not much else really. And the observation is that the dust particles and the gas leave the comet in completely different and uncorrelated directions! The gas tail always points radially away from the Sun, while the dust tail is left behind along the trajectory of the comet. This is what you can see on these two pictures. The animation on the left shows that the direction of the comet's motion doesn't line up with the gas tail. On the right you can also see both the dust and the gas tail of a different comet and that they do not line up with each other.
+
+This discovery was the first observational evidence for the existence of the solar wind. Besides electromagnetic radiation, the Sun also constantly streams out fast moving charged particles, which we call as solar wind. These particles are the ones that are able to divert the escaped gas from the comet, away from the Sun. And this solar wind will travel far distances away from the Sun. However, there will be a limit, where the solar wind collides with the interstellar medium and it slows down the solar wind. There will be a boundary a surface around the Sun, where solar wind particles cannot push anymore against the interstellar medium. The region or the inside of this boundary this process carves out from space is what we refer to as the heliosphere.
+
+--------
+
+Before I talk about the inner structure of the heliosphere I have to talk about the interplanetary magnetic field or IMF for short (not to be confused with the International Monetary Fund). The IMF, intertwined with the solar wind and the interstellar, outside effects, defines the boundary of the heliosphere.
+
+The IMF is the large-scale magnetic field that exists throughout the Solar System inside the heliosphere. Directly, it originates from the Sun's corona, the outermost part of the Sun's atmosphere. We know that the corona is a highly magnetized region of the Sun, and the interplanetary magnetic field is essentially just the extension of the Sun's magnetic field into space through the corona.
+
+The main processes that creates the IMF is the solar wind that flows outwards from the Sun. Because it consists of charged particles originating from the Sun's corona, the solar wind carries the Sun's magnetic field with it, and as it flows through the Solar System, it stretches and shapes the interplanetary magnetic field.
+
+The shape of the interplanetary magnetic field is highly dynamic and can vary depending on the state of the Sun and the solar wind. In general, though, the field has roughly an Archimedean spiral shape, with it's axis roughly aligned with the Sun's rotational axis. This spiral shape is simply due to the Sun's rotation. As it rotates and constantly emits solar material, the footpoint where a stream of solar wind leaves the corona constantly rotates counter-clockwise, when viewed above the Sun. The material forms a spiral shape because of this and this is what creates this spiral form in the IMF itself that you can see on this slide.
+
+However, the interplanetary magnetic field is also subject to many disturbances and variations, such as solar flares and especially coronal mass ejections, which can cause significant changes in its shape and intensity by injecting high energy charged material into the interplanetary space.
+Because of other effects the IMF has a structure not just in the equatorial plane of the Sun (which is the spiral shape), but also in the north-south direction. This is because the magnetic equator of the Sun is not perfectly aligned with it's rotational axis. This magnetic precession is what gives its wavy structure in this direction that you can also see heavily emphasized on this picture. To translate it to simpler terms, we can state that as the Sun rotates, from Earth we sometimes see the IMF coming from the northern magnetic hemisphere of the Sun, but sometimes from the southern magnetic hemisphere.
+
+--------
+
+Because this is a space weather course, I should speak a bit about how CMEs can affect the corona and the solar wind, causing serious distortions in the IMF and on the magnetic field of Earth. We already learned about coronal material ejections, CMEs for short. These are powerful mass ejections of material from the Sun's corona, caused by reconfigurations of the solar magnetic field.
+
+The real issue with CMEs is that they can move a very large amount of material away from the Sun, much faster, than the velocity of the background solar wind. And what does it mean? It means that these CMEs regularly causing powerful shock waves in the medium of the solar wind. This heavily distorts the IMF and obviously the planetary magnetic fields. They are certainly the most important solar phenomena in the Solar System that have global and catastrophic effects inside the inner heliosphere.
+
+--------
+
+Now let's talk about the heliosphere itself. As I mentioned it in the caption on this slide, the heliosphere has a teardrop shape. Similarly to the formation of actual water droplets, the heliosphere is also distorted due to the relative motion of the Sun and the interstellar medium in our galaxy, the Milky Way. As a water droplet falls from a cloud during a rainstorm and takes a droplet shape due to the air drag, the heliosphere also takes the form of a droplet due to drag, moving in this interstellar medium.
+
+There are two main boundaries inside the heliosphere that we should talk about. The first boundary is called the termination shock. This is where in a turbulent process, the supersonic solar wind particles become subsonic in the reference frame of the Sun. As I mentioned it multiple times, the Sun drifts through the interstellar medium, orbiting the galactic center. As solar wind particles collide and interact with this medium, they slow down. There will be a point, where the velocity of solar wind particles abruptly drops; this is the termination shock.
+
+--------
+
+A popular analogue that intends to help visualizing what the termination shock is, can be seen on the left picture. Technically it's the same effect what happens in a sink, when we open the water stream. Around the water stream there will be region, where the water particles radially moves away from the center, faster than the local phase velocity, they're supersonic in that sense. However, due to friction, they're constantly slowing down as they travel further and further. And there will be a point, where their velocity drops below the phase velocity, creating a turbulent shock wave in this region. Everything beyond that line will move at a subsonic velocity.
+
+This is, what we can see in the data of the Voyager-1 and 2 space probes. By measuring the rate of the solar wind particles, we can observe that the Voyager-1 traversed through an extremely turbulent region, the termination shock, in late 2004. And entered the next next region of the heliosphere, called heliosheath. This when Voyager-1 was around 94 AU away from the Sun.
+
+--------
+
+At the end of the heliosheath, lies the next boundary of the heliosphere, the heliopause. This is the boundary, where as its name says, the solar wind pauses. As it slows down even more in the heliosheath, it gets to a point, where the solar wind particles cannot push anymore against the interstellar radiation. Voyager-1 crossed this line in the August of 2018, while it was 121 AU away from the Sun. We can see on the Voyager-1 data that the number of solar wind particles abruptly drop in number after this point (left figure), while the number of interstellar particles grow significantly.
+
+--------
+
+There are still several open questions about the nature and structure of the heliosphere, especially about its surrounding region.
+
+What does the bow shock of the Sun looks like? We know that not just the solar wind, but the magnetosphere of stars also interact with the interstellar material. This creates a "shock wave"-like phenomena, where the star pushes the interstellar material in front of it.
+
+While we know bow shock exists and we have several observations of stars moving through dense material, creating a bow shock, the existence of a closely related structure is still questioned. There are popular theories that say, there should be a layer or wall of hot hydrogen between the bow shock and the heliopause of a star.
+
+And even before all these, science still has much more questions and uncertainties, than answers about the inside of the heliosphere. We'll see what the future holds for us in this field.
+
+Thank you for your attention!
