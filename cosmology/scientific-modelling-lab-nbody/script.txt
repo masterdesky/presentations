@@ -1,0 +1,17 @@
+- In this project someone will explore cosmology and create computer simulations of the universe.
+
+- Why this topic is relevant in any way?
+- We usually mention the term "standard model" in particle physics, but cosmology has their own standard model too, the LCDM.
+
+- Over the past years (or decades), many different problems and challanges of the LCDM emerged slowly.
+- The abundance of all these problems tell us that either the LCDM is not the correct model or our knowledge in physics is incomplete.
+
+- There's many different ways how you can study the relevant physical phenomena, or the LCDM model or other alternative models, but one quite modern way is running computer simulations of the universe.
+
+- The idea behind this is pretty much the same as for any simulations: "One physical world, but a million more with simulations."
+- Now we have the necessary computing capacity.
+
+- We want to analyse the statistical features and derive statistical metrics of simulations. Then use it to constraing models or the values of physical parameters.
+
+- Do this by simulating a larger section of the universe over a long time period, billions and billios of years.
+- Monitor how the content of the universe evolves spatially and temporally.
