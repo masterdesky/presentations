@@ -1,0 +1,117 @@
+#
+- Today's topic is the CMB
+- Probably everyone in the room heard about it
+- Certanly deemed to be one of most important observations/observed effect in
+  modern astronomy
+- Kinda well-studied because of this and popular target for future observations
+- Before the physics I would like to talk about history
+
+
+#
+- At the end of the 19th century, radio was invented
+- Long-distance wireless communication is definitely superior
+- Nowadays we're well-aware of the benefits of wireless communication
+- Back then, people still had to realize that it's quite a neat technology
+- Communication technology was heavily boosted by the two world wars in the
+  first half of the 20th century
+- Due to the size of the conflic zones, reliable and fast communication on the
+  frontline was vital to any kind of success
+- After the Second World War, R&D still had a lot of momentum
+- Many technologies, eg. rocket science was developing with exponential speed
+- The launch of Sputnik-1 turned the attention towards orbiting satellites as
+  tools for large-distance wireless communication
+- Reserachers were working on to utilize not only radio signals, but microwave
+  signals too
+- One of the ideas proposed by the Bell Laboratories was to use large, reflective
+  balloons orbiting the Earth to reflect and "bounce" signals from one point on
+  the ground to another off of these balloons. This was Project Echo.
+- Two balloons were launched in 1960 and 1964 and two ground stations were
+  constructed to test this technology
+
+#
+- One of the stations were the Holmdel Horn Antenna in New Jersey, coordinated
+  by two gentlemen, Arno Penzias and Robert Wilson
+- During this program, the main task of Penzias and Wilson was to eliminate every
+  noise and interference from the receiver of this antenna
+- However after their first measurements in 1964, some strange noise still
+  remained
+
+#
+- This was uniform across the enitre sky and was detectable during every part
+  of the day
+- Famous anecdote that they thought it could be cause by the pigeons nesting
+  inside the antenna, but after cleaning everything up, this noise still remained
+- Bernard Burke casually told Penzias about a paper in work at Princeton that
+  details how the Big Bang should have left a microwave "echo" of this event,
+  referring to as the "cosmic microwave background radiation" (or CMB for short)
+- Penzias immediately contacted the authors and after some discussion they
+  concluded that the statistical properties of this strange noise closely
+  matches the predictions of cosmological theories about the CMB
+- Then in 1965 they jointly published their findings about this observation
+
+#
+- It still took some time for the CMB to be recignized as an important
+  aspect of cosmology
+- Although it was first predicted in 1948, it still took almost 30 years for
+  this theory to get well established in the general scientific community
+- Nowadays we have a plethora of information about this phenomena
+- Couple words about why it's so important for modern physics, why it's studied
+
+#
+- Just to be concise, here's the history of the universe
+- It's not "just the echo of the big bang", but it has an important role in the
+  whole story
+- Big Bang happens. What's this? Nobody knows. But we have a copious amount of
+  coherent observational evidence that it happened.
+- After the Big Bang, the universe is doing two things: expanding and cooling
+  down
+- Because of this, it goes through several transitional epochs that can be
+  mostly described using elaborate particle physics
+- To our best knowledge, the universe already wasn't homogenous at this point,
+  it was filled with "ripples" in the very first stages and those turned into
+  various fluctuations in the later, but still early stages
+- The early universe was opaque to electromagnetic radiation, photons had a
+  very short mean free path due to the Thomson scattering in the extremely
+  dense medium that filled up the universe
+- However around 370,000 years after the Big Bang, the universe cooled down to
+  a point (around 3000K), where the formation of hydrogene atoms were energetically
+  favorable
+- At this point the so-called "recombination" of electrons and protons happened,
+  were electrons bonded with protons, creating hydrogene atoms.
+- Simultaneously, the mean free path of photons grew to infinity, since they
+  couldn't scatter on free electrons anymore. They also thermodynamically
+  separated from this, now non-existent electron cloud. This event is referred
+  to as "decoupling".
+- What happened here? This large volume of photons suddenly became free and
+  was able to finally propagate through the universe.
+- And this burst of photons is what we call as CMB. This is basically a snapshot
+  of the universe in the electromagnetic domain, 370,000 years after the Big Bang.
+- And this is the universe now, where we have stars, galaxies, galactic clusters,
+  filaments and voids, permeating the entire universe.
+
+#
+- Okay, but I have to go a bit deeper than that to really understand what we see
+  on this strange CMB image.
+- We can see two different things on our CMB measurements:
+    - The actual photons that bounced off for the last time from an electron
+    - The interaction of these photons with other objects in the universe
+      during their travel
+- The first point here refers to that we can measure the temperature of these
+  photons. And we can plot this temperature map for the enitre sky.
+- I don't want to speak about the second part now.
+#
+- We can see on these temperature maps, that they're not homogenous. There are
+  many, although small fluctuations on the entire sky.
+- Photons decoupled from electrons, when they had a 3000 K temperature
+- They "cooled down" to 2.7 K due to the redshift they suffered traveling for
+  billions of years in a expanding universe.
+- The CMB has a redshift of approximately z=1099
+- And now comes the big reveal: to our best understanding and according to our
+  current theories about the evolution of the universe, the small ripples in
+  the early universe created the fluctuations in the later stages, that we can
+  see in the CMB
+- And now these fluctuations grew into the large scale structure of the universe
+- Now you understand, why it has an important role in cosmology
+
+#
+- Couple words about it's mathematical description
