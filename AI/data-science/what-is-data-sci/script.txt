@@ -1,0 +1,159 @@
+BEVEZETŐ / TITLE PAGE
+====================================
+- Bemutatkozás
+- Miről fog szólni az előadás? Két + fél rész igazából:
+    - Az adattudományt hogy kell térben/időben/gondolatban elhelyezni
+    - Milyen felhasználási példái vannak a mai világban?
+    - A felet pedig majd meglátjátok
+- Rengeteg dolog megválasztása önkényes, a definíciók homályosak.
+  A határvonalak össze vannak mosódva. Mindenki a saját, személyes véleménye
+  után rohan a fogalmak kategorizálásában.
+- 2 dolgot tudunk a cím alapján is már: adat és tudomány
+
+TUDOMÁNYTÖRTÉNET
+====================================
+...
+
+
+NEURÁLIS HÁLÓK
+====================================
+- Óriási téma már önmagában is
+- A matekja egyszerű, de sok, apróbb részből áll
+- Ezek fejlődése is folytonos, az évek folyamán újabb és újabb megoldások
+  születtek a különféle problémákra, amik ma már alapvető részei az NN-eknek
+- Vagy csak a koncepció, vagy rengeteg matek
+- A matek ijesztő lehet... Épp ezért ezt nem részletezném most.
+
+- Két különböző dolgot fogok most megemlíteni, amire szükség lesz a továbbiak
+megértéséhez:
+
+a)
+- Nem tudhatom ki hogy tanult függvényeket, de én a gépekkel
+- A gép modell: bemenet -> gép csinál valamit -> kimenet
+- Ez az, amit a matematikában úgy hívunk, hogy függvény
+
+b)
+- A 19. század legvégére az idegtudomány önálló tudomány
+- Rohamosan fejlődik a technikai fejlődés miatt
+- Az agy működésének részleteiről elkezdett lehullni a lepel
+- Egyik ilyen fontosabb részlet az agy felépítésével kapcsolatos:
+    - Neuronokból áll
+    - Ezek elektromos jelek továbbításával működnek
+    - Valójában ún. ingerületátvivő anyagok/neurotranszmitterek átadásával
+      továbbítanak elektromos jeleket egymásnak
+    - Bemenet:dendrit - kimenet:axonon át a telodendrionok
+
+=> A számtógépes/szimulációs korszak beköszönte motiválta a neuron matematikai
+   modelljének létrehozását
+- Két bácsi: McCulloch és Pitts publikálta
+- Itt jön a trükk: ez mit is csinál egész pontosan?
+- Bemutatták, hogy ez képes MINDEN logikai probléma megoldására. Ez azt takarja
+  szóban elmondva, hogy bármilyen IGEN/NEM kérdésre képes megadni a választ.
+
+- De hogyan? Ugyanolyan, mint egy "gép"!
+- Berakjuk egy fekete dobozba és úgy kezeljük, mint egy gépet, ami csinál
+  *valamit*.
+- Ez egy függvény továbbra is
+
+- A világunk azonban nem ilyen...
+- Frank Rosenblatt és kutatócsapata készítette el ennek az első tényleges
+  implementációját, ami valójában egy nagy számítógép volt (1957-1958)
+- Nagy visszhangja volt a sajtóban és a korai AI közösségben (1 éven belül
+  már képes lesz szöveget írni és olvasni, stb.)
+
+
+- Gyorsan kiderült, hogy ez nem így van
+- 3 dolgot már matematikailag nem képes megkülönböztetni egymástól
+- Ezt a technológia bizonyos kritikusa le is írták egy sokat hivatkozott
+  cikkben
+- 25 évnyi AI tél
+
+- 25 évvel később: öö... miért 1 neuront használunk?
+- Többi történelem...
+
+NAGY NYELVI MODELLEK
+====================================
+- Angolul NLP
+- Természetes nyelveknek nevezzük az emberek által beszél, vagy írt nyelveket
+- A terület ezeket próbálja a számítógépek által értelemzhető és interpretálható
+  formába önteni
+- Hogyan működik/kommunikál a számítógép?
+- Régóta vannak *programozási* nyelvek, de azoknak erős limitáció vannak
+- Egy emberi mondat értelmezése a számítógép számára borzasztóan bonyolult
+  feladat
+- Nagyon aktívan kutatott terület
+- Ahogy minden másban is, itt is az elmúlt pár évben történtek nagy áttörések:
+    - Transzformer
+- Valójában nagyon primitív, amit a háttérben történik
+- Mégis nem várt dolgokra képes
+
+
+ADAT AUGMENTÁCIÓ
+====================================
+- "Augmentáció": Növelés, bővítés
+- A dián szereplő dolgok csak egy apró, de mostanában sokat hangoztatott és
+  érdekesebb részletét képviseli
+- Rakún is haha, de ez azért egy komplexebb és nagyon fontos terület
+    - Az adattudományhoz adatok kellenek
+    - Az adatokat vagy MÉRJÜK vagy SZIMULÁLJUK
+    - Néha nincs elég gépidő, távcsőidő
+    - Néha túl sok a zaj, rossz a felbontás, kevés a részlet
+- Ezen a dián már sok hibrid dolog is van, ami az NLP-vel együtt valósult meg
+- Sok félreértés van ezek kapcsán is, főleg mostanában
+
+
+MARKETING
+====================================
+- Jelen esetben a digitális/online marketing lesz a téma
+- Egy olyan dolog, amivel mindenki találkozott már, aki valaha megnyitotta az
+  internetet
+- Minden, amit az összes létező cég és oldal az arcunkba tol
+- Az online világban több cél is megfogalmazódik:
+    - Minél több interakció, minél több online idő az adott oldalon
+    - Minél több aktív felhasználó az oldalon
+    - Minél több kattintás hirdetésekre
+- Marketing technikákat nem tegnap találták ki
+- DE: a rengeteg felhasználói adat hatalmas áttörést hozott:
+    - Kategorizálhatunk
+    - Viselkedési mintázatokat figyelhetünk meg részletesen (szinte
+      pszichológiai kórkép)
+
+
+GAZDASÁGI MODELLEZÉS
+====================================
+- A gépi tanulás vívmányai már elérték a legtöbb a gazdasági területet is
+- Banki, pénzügyi, BEFEKTETÉSI szektorban a legelterjedtebb
+    - pl. Morgan Stanley, MSCI
+- Gépi tanulás ígéretei minden tudományos és ipari terüeten:
+  "Sokkal többet, sokkal jobban, sokkal gyorsabban"
+- Mi a motiváció itt? Minél több pénz, minél gyorsabban
+- Sok probléma:
+    - Kevés, nagyon alacsony minőségű, hiányos szakirodalom
+    - A gazdaság, a tőzsde, az árfolyamok változása, a világ változása egy
+      teljesen sztochasztikus rendszer
+    - Sztochasztikus jelentése:
+    - Nagyon kevés az adatpont, amiket szimulálni is nehéz
+    - => Átgondoltabb, bonyolultabb, többrétű megoldásokra van szükség
+- Persze vannak technikák, amikkel bizonyos problémákat meg tudunk célozni
+- Mikre lehet alkalmazni?
+    - Tőzsdei előrejelzés, pénzügyi eszközök (részvény, kötvény, opció, stb.)
+      kereskedése
+    - Banki csőd előrejelzése: válság idején pl.
+    - Hitelkockázat előrejelzése
+    - Termékek árainak előrejelzése
+    - Makroökonómiai előrejelzések
+- Nagyon fontos aspektus: azt is megondani, hogy MI MIATT történik valami?
+  A black box modell lebontása?
+
+
+EGYEBEK
+====================================
+- IT szektor
+    - Telefontornyok antennáinak beállítása
+    - Adatforgalom átirányítása tornyok között
+    - Érzékelők gyártása
+    - Robotika
+
+- Könnyű- és nehézipar
+    - Minőségellenőrzés
+    - Gyártósorok optimalizálása
