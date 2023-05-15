@@ -38,9 +38,9 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-Yes, you heard it correctly, only in the future, we don't have real spectral data yet. So we were working with synthetic stellar spectra in the meantime to develop the pipelines that will be used to analyze the real observations, once they're ready. How accurately you can simulate stellar spectra is an another topic on it own, so I won't talk about that. Only thing I'll mention is that we have a software that can generate pretty good artificial stellar spectra in the same parameter range that the PFS instrument will collect data from.
+Yes, you heard it correctly, only in the future, we don't have real spectral data yet. So we were working with synthetic stellar spectra in the meantime to develop the pipelines that will be used to analyze the real observations, once they're ready. How accurately you can simulate stellar spectra is an another topic on it own, so I won't talk about that. Only thing I'll mention is that we have a software that can generate pretty good artificial stellar spectra at least in the same parameter range that the PFS instrument will collect data from.
 
-Here you can see what these synthetic spectra look like. They can be generated to every noisy, if we want to, as you can see on this particular visualization. The blue and gray lines are the noisy spectra in these two panels, while the orange and white lines are the pure, noiseless spectra. In the bottom panel, there are multiple spectra overimposed on top of each other, just for visual purposes, to see how large the noise is on noisy spectra.
+Here you can see what these synthetic spectra look like. They can be generated to be noisy, if we want to, as you can see on this particular visualization. The blue and gray lines are the noisy spectra in these two panels, while the orange and white lines are the pure, noiseless spectra. In the bottom panel, there are multiple spectra overimposed on top of each other, just for visual purposes, to see how large the noise is on noisy spectra.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -56,11 +56,17 @@ Long story short, if you look up the literature, you'll find that there isn't an
 
 ------------------
 
-The main question we wanted to answer at the end of all of this is that can a deep neural network denoise the spectra I just shown you? Observed data will be noisy and substracting that noise with classical methods is not easy. It would be great if an AI could just do that on the flip of a switch.
+The main question we wanted to answer at the end of all of this is that can a deep neural network denoise the spectra I just shown you? Observed data will be noisy, unfortunately. It would be great if an AI could just remove that noise from our data on the flip of a switch. The reason why we would love to do that is not obvious. I mean, of course, data without noise is almost always much better. There are more, but I can mention two important, direct and practical usecases of denoising:
+    A) The actual existing methods for the determination of stellar parameters are simply do not work, when the noise on observed spectra are too big. If we could efficiently and accurately denoise spectra, then we could use the already existing methods to determine the stellar parameter without any problem.
+    B) There is an extremely important and annoying technical detail behind a huge portion of scientific experiments. Research groups have to pay a lot of money to use a space telescope, a computing cluster, a hadron collider and many other things like that. In case of astronomical observations, you create long-exposure images of different stellar objects, to collect as much detail and to increase the signal-to-noise ratio on your observations as much as possible.
 
 ------------------
 
-Of course, there are other interesting problems that we can examine. Eg. substracting the continuum from a measurement is almost always a really challanging task. Just like in case of spectroscopy. But if the deep learning could denoise a spectra it could maybe easily substract the continuum too, who knows? But it's really intriguing for those people who's research involves this annoying step.
+Wouldn't it be great, if we could tell details about the observed targets, even in low signal-to-noise conditions and we could spend much less time and much less money on the actual observation? That's the general usecase. In case of this project it would be also important for very similar reason. The collaboration have a large list of objets they want to observe. However many of these objects have a really high probability of being something else they expect of what that object is. And if we could tell as soon as possible that "sorry, the currently targeted object is not a red supergiant, you should start observing something else", that would save the collaboration a lot of actual time.
+
+------------------
+
+There were other questions too that I'll mention at the end of the presentation.
 
 ------------------
 
@@ -110,6 +116,6 @@ Others also used simple CNNs, to reconstruct stellar parameters from synthetic s
 
 So currently the main focus of our research is to test if convolutional autoencoders could really minimize the errors compared to our previous models.
 
-An other interesting problem I mentioned already that we haven't tested yet is the continuum normalization. In this case the input to the deep learning model would be just a regular, noiseless stellar spectrum and we would aim to reconstruct a spectrum that has the black body continuum substracted.
+An other interesting problem that we haven't tested yet is the continuum normalization. In this case the input to the deep learning model would be just a regular, noiseless stellar spectrum and we would aim to reconstruct a spectrum that has the black body continuum substracted.
 
 Time will tell, if we're able to tackle these challanges. That's the end of my presentation, and thank you for yor attention.
