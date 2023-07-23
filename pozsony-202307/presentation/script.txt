@@ -1,5 +1,9 @@
 
-My name is Balázs Pál, I'm PhD student at the Eötvös Loránd University studying physics, and I do many things that's related to computational sciences. I'm also an assistant research fellow at the Wigner Research Centre for Physics. In the past couple months I had the opportunity to work with a research group at the Johns Hopkins University, the PFS Galactic Archeology Team. This is a smaller international collaboration or team that is primarily focused on doing reserach with a new instrument of the Japanese Subaru Telescope at Hawaii, called the Prime Focus Spectrograph (or PFS for short). I'll tell you more about this later.
+My name is Balázs Pál, I'm PhD student at the Eötvös Loránd University studying physics, and I do many things that's related to computational sciences. I'm also an assistant research fellow at the Wigner Research Centre for Physics.
+
+In the past couple months I had the opportunity to work with a research group at the Johns Hopkins University, the PFS Galactic Archeology Team. This is an international team that is primarily focused on doing reserach with a new instrument of the Japanese Subaru Telescope at Hawaii, called the Prime Focus Spectrograph (or PFS for short). I'll tell you more about this later.
+
+My work consisted of just a single project in the vast ocean of research projects and task actively worked on by this team. Today, in this presentation, I would like to give you an overview of the science done by this group, then talk about my project and explain why it could worth a look for other people too.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -7,17 +11,17 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-But before I talk about the actual research, let me tell you what was the motivation, the scientific rationale behind it?
+So, first let me tell you the story of what was the motivation, the scientific rationale behind everything the PFS galactic archeology research group is doing?
 
-There is a well-known model in physics, called the "Standard Model" (with capital S and M). For those who are not physicist in the audience, this is a physical model that intends to describe three out of the four known fundamental forces in the universe. (So it can't describe gravity, but everything else.) It also aims to classify all known elementary particles and explain how these particles and fundamental forces are related to each other. We can say that it is a model that explains a certain domain of phenomena in particle physics.
+Similarly to particle physics, cosmology has its own standard model. And the concept and goals are the same. While the Standard Model (with capital "S" and "M") intends to explain physical phenomena on the microscopic level, the standard model of cosmology tries to describe the relevant physical phenomena on cosmological scales. More specifically it gives a comprehensive framework for all the phenomena related to the structure and the evolution of the universe. This model is currently called as the "Lambda-CDM model". But the problem is that it is much less established, than the Standard Model of particle physics.
 
-It is much less known, but cosmology, the large scale study of the universe, also has its own "standard model" that intends to describe another domain of phenomena, which in this case are related to the structure and evolution of the universe. This is currently called as the "Lambda-CDM" model, but it is less established, than the Standard Model of particle physics.
+Why is that? In the past couple decades - let's say 30 years - many different problems of this model arised that questioned its accuracy in a multitude of topics and even the model's validity in general. There is a long list of problems that concerns the fundamental tenets and assumptions of the model. Let's call them the "axioms" of the model.
 
-In the past couple decades, let's say 30 years, many different problems of this model arised that questioned its accuracy in several topics and even its validity in general. It's still considered to be the so-called standard model of cosmology, however its problems are indisputably widespread and needs to be addressed.
+So there are definitely physical models that seen better days than the Lambda-CDM nowadays. Despite all of this, it's still considered to be the standard model of cosmology, since it still provides the most comprehensive explanation for the existing phenomena in cosmology out of all cosmological models. However its problems are indisputably widespread and needs to be addressed. Just because it's the best right now, doesn't mean it's good.
 
-And naturally, since it's such a huge field in physics, we have quite a large amount of different ways for how we can address the various challanges that LCDM has to face. Some of these ways are more direct, while some of them are... well, less direct and they consist of of a stepwise approach to these problems.
+Unfortunately, it's not entirely straightforward how to address all these problems at once. Cosmology is a huge and diverse field in physics. We have quite a large amount of different ways for how we can or how we should address the various challanges that the LCDM has to face. Some of these ways are more direct, while some of them are... well, less direct, but usually they consist of of a stepwise approach to these problems.
 
-I had the chance to work on one of the myriads of approaches. My work was also just a step of the bigger picture, it was a single cog in the entire machine.
+In the PFS Galactic Archeology group I had the chance to work on one of these myriads of approaches.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -25,9 +29,33 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-So what is this particular approach? It's Galactic Archeology, using the already mentioned, Subaru PFS instrument. "Galactic Archeology" is funny name I think, but it describes really well, what it's all about. Past events and processes that shaped a galaxy left marks on the stellar attributes of stars inside the galaxy, such as the chemical composition, spatial distribution, or dynamics of stars. Using these clues imprinted on stars, we can infer how a galaxy evolved in the past couple billion years. With a better understanding of galactic evolution, we can constrain the nature of the large scale effects that influenced it in the first place. Eg. the dark matter distribution or effects of the dark energy, etc. Successfully constraining these peculiar phenomena, we'll be a step closer to an accurate and valid cosmological standard model.
+So let's talk abot this. "Galactic Archeology": what is it? It is... first of all, a funny name I think. When you hear the word "archeology", you think of ancient cities, and the name "galactic archeology" sounds even more exotic in this context. But it actually describes really well, what it's all about!
 
-The best tool we have at our disposal to accurately measure many relevant stellar attributes is spectroscopy. There are two simple reasons, why the PFS instrument on the Subaru Telescope is interesting enough to have a collaboration formed around it and to do spectroscopy with it:
+Past events and processes that shaped a galaxy at some point in its lifetime, always leave marks on the stellar attributes of stars inside that galaxy. These attributes are like the chemical composition, spatial distribution, or dynamics of stars. Using these clues imprinted on stars, we can infer how a galaxy evolved in the past couple billion years. With a better understanding of galactic evolution, we can constrain the nature of the large scale, the cosmological effects that influence every galactic evolution in the universe in the first place.
+
+Just to mention a few of these large scale effects, for example the dark matter distribution that - as we currently think - inherently drived the clumping of ordinary matter in the young universe after the epoch of recombination, and thus created the first stars, galaxies and galaxy clusters.
+
+Or for example the effects of the dark energy - the other "dark" thing - that - in a sense - counteracts dark matter, but mainly drives the accelerating expansion of the universe, influencing structure formation to a great extent.
+
+Unfortunately we have lots of unanswered questions about them and about most of the related phenomena. However, by successfully constraining all these phenomena, we'll be another step closer to an accurate and valid cosmological standard model.
+
+================
+LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
+LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
+LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
+================
+
+As I mentioned, what is done in galactic archeology is that we observe things on the small scale to acquire knowledge about the larger scales. To be precise in this running project, the PFS team intends to observe mainly bright, red giant stars in the satellite dwarf galaxies of the Milky Way. And wants to extract the relevant physical attributes from these objects.
+
+Currently, the best tool we have, and I mean humanity has at its disposal to accurately measure most of the relevant stellar attributes is spectroscopy.
+
+[.....................................]
+[.....................................]
+[.....................................]
+[.....................................]
+[.....................................]
+
+There are two simple reasons, why the PFS instrument on the Subaru Telescope is interesting enough to have a collaboration formed around it and to do spectroscopy with it:
     A) First, the telescope itself is capable of wide field observations that means many stellar objects are in the field of view of the telescope at the same time.
     B) Second, the PFS instrument is desgined to be able to simultaneously measure the optical spectra of a large number of targets in the telescope's field of view with a good accuracy.
 These two instruments combined will provide us a large number of high-quality spectroscopic data in the near future.
@@ -51,8 +79,6 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 Okay, but what exactly can you do with data like this? We have countless options. So what we were interested in?
 
 We wanted to see how deep learning methods are able to tackle the different questions about stellar spectra. Of course, everyone is doing machine learning and AI for practically everything now, without any thoughtful consideration... but it was hypothesized that these methods could actually help us here.
-
-Long story short, if you look up the literature, you'll find that there isn't any well-tested recipe on how to approach a dataset like this. I don't want to elaborate on this, because of the time constraint. So we first compiled a list of questions we wanted to answer and tried to come up with the most appropriate deep learning method for them.
 
 ------------------
 
