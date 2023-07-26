@@ -3,7 +3,7 @@ My name is Balázs Pál, I'm PhD student at the Eötvös Loránd University stud
 
 In the past couple months I had the opportunity to work with a research group at the Johns Hopkins University, the PFS Galactic Archaeology Team, which is part of the international PFS collaboration, led by the Kavli IPMU: Institute for the Physics and Mathematics of the Universe in Japan. This collaboration is primarily focused on doing research with a new instrument of the Japanese Subaru Telescope at Hawaii, called the Prime Focus Spectrograph (or PFS for short). I'll tell you more about this later.
 
-The collaboration is involved in a vast ocean of research projects all around the world. Today however, in this presentation, I would like to give you a general overview of the science done by the Galactic Archaeology team. Then I would like to talk about my project in it and give you some arguments why it could worth a look for other people too.
+The collaboration is involved in a vast ocean of research projects all around the world. Today however, in this presentation, I would like to give you a general overview of the science done by the Galactic Archaeology team. Then I would like to talk about my project in it and give you some arguments why it could worth a look for other people too and why am I talking about this here.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -13,13 +13,13 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 So, first let me tell you the story of what is the motivation, the scientific rationale behind everything the PFS Galactic Archaeology team is doing?
 
-Similarly to particle physics, cosmology has its own standard model. And the concept and goals are the same. While the Standard Model (with capital "S" and "M") intends to explain physical phenomena on the microscopic level, the standard model of cosmology tries to describe the relevant physical phenomena on cosmological scales. More specifically it gives a comprehensive framework for all the phenomena related to the structure and the evolution of the universe. This model is currently called as the "Lambda-CDM model". But the problem is that it is much less established, than the Standard Model of particle physics.
+Similarly to particle physics, cosmology has its own standard model. And the concept and goals are the same. While the Standard Model of particle physics intends to explain physical phenomena on the microscopic level, the standard model of cosmology tries to describe the relevant physical phenomena on cosmological scales. More specifically it gives a comprehensive framework for all the phenomena related to the structure and the evolution of the universe. This model is currently called as the "Lambda-CDM model". But the problem is that it is much less established, than the Standard Model of particle physics.
 
-Why is that? In the past couple decades - let's say 30 years - many different problems of this model arised that questioned its accuracy in a multitude of topics and even the model's validity in general. There is a long list of problems that concerns the fundamental tenets and assumptions of the model. Let's call them the "axioms" of the model.
+Why is that? In the past couple decades many different problems of this model arised that questioned its accuracy in a multitude of topics and even the model's validity in general. There is a long list of problems that concerns the fundamental tenets and assumptions of the model. We even heard about some of them yesterday.
 
-So there are definitely physical models that seen better days than the Lambda-CDM nowadays. Despite all of this, it's still considered to be the standard model of cosmology, since it still provides the most comprehensive explanation for the existing phenomena in cosmology out of all cosmological models. However its problems are indisputably widespread and needs to be addressed. Just because it's the best right now, doesn't mean it's good.
+So there are definitely physical models that seen better days than the Lambda-CDM nowadays. Despite all of this, it's still considered to be the standard model of cosmology. However its problems are indisputably widespread and needs to be addressed.
 
-Unfortunately, it's not entirely straightforward how to address all these problems at once. Cosmology is a huge and diverse field in physics. We have quite a large amount of different ways for how we can or how we should address the various challanges that the LCDM has to face. Some of these ways are more direct, while some of them are... well, less direct, but usually they consist of of a stepwise approach to these problems.
+Unfortunately, it's not entirely straightforward how to address all these problems at once. Cosmology is a huge and diverse field in physics, intertwined with other fields like particle physics. So we have quite a large amount of different ways for how we can or how we should address the various challanges that the LCDM has to face.
 
 In the PFS Galactic Archaeology group I had the chance to work on one of these myriads of approaches.
 
@@ -29,11 +29,11 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-So let's talk abot this. "Galactic Archaeology": what is it? Well... first of all, it is a funny name I think. When you hear the word "archaeology", you think of ancient cities, and the name "galactic archaeology" sounds even more exotic in this context. But it actually describes really well, what it's all about!
+So let's talk abot this. "Galactic Archaeology": what is it? Well... first of all, I think it is a funny name. When I hear the word "archaeology", I think of ancient cities, and the name "galactic archaeology" sounds even more exotic if I follow this train of thougth. But it actually describes really well, what it's all about!
 
-All the past events and processes that shape a galaxy at some point in its lifetime, always leave marks on the stellar attributes of stars inside that galaxy. And by attributes I mean like the chemical composition, spatial distribution, or the dynamics of stars and other things like that. Using these clues imprinted on stars, we can infer how a galaxy evolved in the past couple billion years, we can infer on the processes that shaped it. With a better understanding of galactic evolution, we can constrain the nature of the large scale, the cosmological effects that influence every galactic evolution in the universe in the first place.
+All the past events and processes that shape a galaxy at some point in its lifetime, always leave marks on the stellar attributes of stars inside that galaxy. And by attributes I mean like the chemical composition, spatial distribution, or the dynamics of stars and other things like that. Using these clues imprinted on stars, we can infer how a galaxy evolved in the past couple billion years, we can infer the processes that shaped it. With a better understanding of galactic evolution, we can constrain the nature of the large scale, the cosmological effects that influence every galactic evolution in the universe in the first place.
 
-Just to mention one of these large scale effects, for example the dark matter distribution and the properties of dark matter that - as we currently know or think - inherently drived the clumping of ordinary matter in the young universe, and thus created the first stars, galaxies and galaxy clusters. It formed dark matter halos around galaxies and larger structures that we can observe today. This is one of the most important connection that cosmologists want to explore here.
+Just to mention one of these large scale effects, for example the dark matter distribution and the properties of dark matter that - as we currently know or think - inherently drived the clumping of ordinary matter in the young universe, and thus created the first stars, galaxies and galaxy clusters. Later it formed dark matter halos around galaxies and larger structures that we can observe today. This is one of the most important connection that science wants to explore here.
 
 Unfortunately we have lots of unanswered questions about these effects and about most of the related phenomena. However, by successfully constraining all these phenomena, we'll be another step closer to an accurate and valid cosmological standard model. This is the main and long-term motivation of every related research.
 
@@ -45,9 +45,11 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 The actual work of the PFS GA group is a bit more nuanced, than what I told you in this little story.
 
-As I mentioned, what is done in galactic archaeology is that we observe things on the small scale to acquire knowledge about the larger scales. In this running project, the GA team intends to observe mainly bright stars in the dwarf spheroidal galaxies around the Milky Way. Basically in galaxies in the Local Group. And the team wants to extract the relevant physical attributes from these objects. These are excellent laboratories to study the properties of the dark matter halo of the Milky Way and the Local Group.
+As I mentioned, what is done in galactic archaeology is that we observe things on the small scale to acquire knowledge about the larger scales.
 
-Currently, the best tool we have, and I mean humanity has at its disposal to accurately measure most of the relevant stellar attributes is spectroscopy. And the PFS collaboration wants to carry out a lot of spectroscopical measurements with the PFS instrument on the Subaru Telescope.
+In this running project, the GA team intends to observe mainly bright stars in the dwarf spheroidal galaxies around the Milky Way. Basically in galaxies in the Local Group. And the team wants to extract the relevant physical attributes from these objects. These are targeted, because these smaller galaxies, far away from the center of mass of the dark matter halo, are excellent laboratories to study the properties of the dark matter halo of the Milky Way and the Local Group.
+
+Currently, the best tool we have, and I mean humanity has at its disposal to accurately measure most of the relevant stellar attributes is spectroscopy. And the PFS collaboration obviously wants to carry out a lot of spectroscopical measurement with the PFS instrument on the Subaru Telescope.
 
 Now this instrument is still not in active use, and it will produce data, starting from 2024, hopefully.
 
@@ -59,13 +61,11 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 Until then, we are working with synthetic stellar spectra, to develop the pipelines that will be used to analyze the real measurements, once they're ready.
 
-Now, how accurately you can simulate stellar spectra is an another topic on it own. There are several different, elaborate stellar models in existence, but - similarly to the LCDM - they're not really satisfactory. But I won't talk about this. The only thing I'll mention is that we can generate artificial measurements/simulations that are satisfactory enough for the science we wanted to explore.
+Now, how accurately you can simulate stellar spectra is an another topic on it own. There are several different, elaborate stellar models in existence, but - similarly to the LCDM - they're not really satisfactory. But I won't talk about this. The only thing I'll mention is that based on the existing models, we can generate artificial measurements/simulations that are satisfactory enough for the science we wanted to explore.
 
 And on this slide you can see what these synthetic measurements or simulations of stellar spectra look like. You can notice exactly two things on this figure:
-    - The first thing is that measurements are noisy. It is something that just happens and we have to deal with it in all different kinds of measurements.
+    - The first thing is that measurements are noisy. In both panels, the gray lines are the noisy spectra, while the red and white lines are the underlying, noiseless spectra. It is something that just happens and we have to deal with it in all different kinds of measurements.
     - The second thing is that by doing simulation we have the luxury to generate the underlying, pure stellar spectrum and the noise separately. And soon this will be a very important remark.
-
-In this figure, in both panels, the gray lines are the noisy spectra, while the red and white lines are the underlying, noiseless spectra. In the bottom panel, there are multiple, randomly selected spectra, overimposed on top of each other, just for visual purposes. Just to see that the noise indeed behaves as noise throughout the entire synthetic dataset.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -77,19 +77,19 @@ Okay, but what is the reason anyone would care about this in particular and how 
 
 Well, it turns out that with data like this, you can do some extremely useful things that could help not just the entire collaboration, but very much probably everyone, using data of similar nature.
 
-And this is where my project comes in. Probably everybody knows that AI and machine learning is on the rise yet again (or more like still on the rise)... And we wanted to test, whether if artificial neural networks could help us answer different questions about stellar spectra. Spoiler: yes, it very much can do that, actually much better, than expected!
+And this is where my project comes in. Probably everybody knows that AI and machine learning is on the rise yet again (or more like still on the rise for many many years now)... And we wanted to test, whether if artificial neural networks could help us answer different questions about stellar spectra. Spoiler: yes, it very much can do that, and it actually does it much better, than expected!
 
 ------------------
 
 There are many different questions that can be explored here, but we wanted to focus only on two of them:
     1. Can you substract the noise from the noisy measurements and get back the original, underlying stellar spectra?
-    2. Can a neural network learn the - as I mentioned - yet so elusive stellar physics that determines how stellar spectra look like?
+    2. Can a neural network learn - as I mentioned - the yet so elusive stellar physics that determines how stellar spectra look like?
 
 I talked a couple words about the second one already. It's unfortunate we don't have a decent stellar model. So it would be great, if a neural network could learn the physical reality without any specific input from us.
 
-However, the goal of denoising data is more elaborate. First of all, it would be obviously great if an AI could just remove the noise from our data on the flip of a switch. Data without noise is almost always preferable. But there are exact reasons for this in case of the PFS research:
-    1. The actual existing methods for the determination of stellar parameters are simply do not work, when the noise on a spectrum is too large. The reason is that these methods usually involve the substraction of the blackbody continuum from the measurements to get back simply the continuumless absorption lines. However, this simply can't be done in noisy conditions. If we could efficiently and accurately denoise spectra, then we could use the already existing methods to continue the analysis for otherwise noisy data and determine the stellar parameters without any problem.
-    2. An other important issue is that the PFS Galactic Archaeology team has a large list of objets they want to observe. However many of these objects have a high probability of being something else they expect of what that object really is. But if we could tell as soon as possible that "sorry, the currently targeted object is not a red supergiant and you should start observing something else", that would save the collaboration a lot of observation time and thus a lot of money.
+However, the goal of denoising data is more elaborate. First of all, it would be obviously great if an AI could just remove the noise from our data on the flip of a switch. Data without noise is almost always preferable. But there are two exact reasons for why we want to do that in the PFS research:
+    1. The actual, existing methods for the determination of stellar parameters are simply do not work, when the noise on a measured spectrum is too large. The reason is that these methods usually involve the substraction of the blackbody continuum from the measurements to get back simply the continuumless absorption lines. However, finding this continuum is many times impossible in noisy conditions. If we could efficiently and accurately denoise the spectra before this step, then we could use the already existing methods to continue the analysis for otherwise unusable data.
+    2. An other important issue is that the PFS Galactic Archaeology team has a large list of objets they want to observe. However many of these objects have a high probability of being something else they expect of what that object really is. But if we could tell on-the-fly that "sorry, the object that the telescope currently targets is not a red supergiant and you should start observing the next object from the list", that would save the collaboration a lot of observation time and thus a lot of money.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -97,9 +97,13 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-It was obvious to us at this point that we have to use some form of autoencoder network, a deep neural network architecture with an vast amount of use-scases nowadays. Its so-called Encoder side basically performs a dimensionality reduction: it encodes a high dimensional data to some low dimensional representation. The Decoder side on the right then tries to reconstruct the original data from this low dimensional so-called latent space.
+It was obvious to us at this point that we have to use some form of autoencoder network, a deep neural network architecture with an vast amount of use-scases nowadays. I won't talk about the architectural details today.
 
-And this is exactly what we want! We want to input a noisy spectrum into the Encoder side and then reconstruct a noiseless version on the Decoder side. I won't dive deep into the architecture of the model, because I want to focus on more interesting things. So let's move on.
+This artificial neural network has two sides: and Encoder and a Decoder side.
+
+Its so-called Encoder side basically performs a dimensionality reduction: it encodes a high dimensional data to some low dimensional representation. The Decoder side on the right then tries to reconstruct some target data (usually, but not always the original input) from this low dimensional embedding, the so-called latent space.
+
+And this is exactly what we want! We want to input a noisy spectrum into some neural network and then reconstruct a noiseless version of it on its output.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -109,7 +113,7 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 After building a model and training it on synthetized data, we concluded that it worked much better than expected.
 
-You can see these results on this slide. The center panel shows a randomly selected spectrum and its reconstructed counterpart by a trained autoencoder. They're almost completely overlap, you can't really see the differences between them here on this panel.
+You can see these results on this slide. The center panel shows a randomly selected spectrum and its reconstructed counterpart by a trained autoencoder on the same plot. They're almost completely overlap, you can't really see the differences between them here on this panel.
 
 That's why I have the bottom panel, which shows the relative errors of the denoising for each sample points, for each pixels. What you can see on this figure is that the hardest part for an autoencoder to learn is the exact size of the emission lines in the spectrum. The emission peaks in the spectrum are where the errors are the largest.
 
@@ -147,17 +151,14 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-What can we use all these knowledge we learned during this?
-[.....................................]
-[.....................................]
-[.....................................]
-[.....................................]
-[.....................................]
+Is it possible to improve this work? Yes. There are several ways.
+
+Besides simply improving the neural network we used, we can eg. ask, if we can build a real denoiser that can recognize and denoise different types of spectra, it never seen before. New types of spectra could have spectral lines that the model never seen before. Robustly denoising these spectra would be a great achievement.
 
 An interesting problem that we haven't explored yet is the continuum normalization. As I mentioned, several classical methods in the determination of spectral parameters need the blackbody continuum to be substracted from the measurements. We can improve our neural networks to the next level by not just denoising measured spectra, but immediately substract the continuum from them.
 
-Another
+Another use-case is to directly train a neural network for the on-the-fly target recognition, again, helping the collaboration to save a lot of observation time.
 
 ================= OLD SCRIPT
 
-But that's the end of my presentation, and thank you for yor attention.
+Time will tell how this knowledge will be used in practice, when the instrument is ready. But that's the end of my presentation, and thank you for yor attention.
