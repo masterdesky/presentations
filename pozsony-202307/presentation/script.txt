@@ -115,7 +115,7 @@ After building a model and training it on synthetized data, we concluded that it
 
 You can see these results on this slide. The center panel shows a randomly selected spectrum and its reconstructed counterpart by a trained autoencoder on the same plot. They're almost completely overlap, you can't really see the differences between them here on this panel.
 
-That's why I have the bottom panel, which shows the relative errors of the denoising for each sample points, for each pixels. What you can see on this figure is that the hardest part for an autoencoder to learn is the exact size of the emission lines in the spectrum. The emission peaks in the spectrum are where the errors are the largest.
+That's why I have the bottom panel, which shows the relative errors of the denoising for each sample points, for each pixels. What you can see on this figure is that the hardest part for a neural network to learn is the exact size of the absorption lines in the spectrum. The absorption peaks in the spectrum are where the errors are the largest.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
