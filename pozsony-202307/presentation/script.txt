@@ -3,7 +3,7 @@ My name is Balázs Pál, I'm PhD student at the Eötvös Loránd University stud
 
 In the past couple months I had the opportunity to work with a research group at the Johns Hopkins University, the PFS Galactic Archaeology Team, which is part of the international PFS collaboration, led by the Kavli IPMU: Institute for the Physics and Mathematics of the Universe in Japan. This collaboration is primarily focused on doing research with a new instrument of the Japanese Subaru Telescope at Hawaii, called the Prime Focus Spectrograph (or PFS for short). I'll tell you more about this later.
 
-The collaboration is involved in a vast ocean of research projects all around the world. Today however, in this presentation, I would like to give you a general overview of the science done by the Galactic Archaeology team. Then I would like to talk about my project in it and give you some arguments why it could worth a look for other people too and why am I talking about this here.
+The collaboration is involved in a vast ocean of research projects all around the world. Today however, in this presentation, I would like to give you a general overview of the science done by the Galactic Archaeology team. Then I would like to talk about my project in it and give you some arguments why it could worth a look for other people too.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -15,7 +15,7 @@ So, first let me tell you the story of what is the motivation, the scientific ra
 
 Similarly to particle physics, cosmology has its own standard model. And the concept and goals are the same. While the Standard Model of particle physics intends to explain physical phenomena on the microscopic level, the standard model of cosmology tries to describe the relevant physical phenomena on cosmological scales. More specifically it gives a comprehensive framework for all the phenomena related to the structure and the evolution of the universe. This model is currently called as the "Lambda-CDM model". But the problem is that it is much less established, than the Standard Model of particle physics.
 
-Why is that? In the past couple decades many different problems of this model arised that questioned its accuracy in a multitude of topics and even the model's validity in general. There is a long list of problems that concerns the fundamental tenets and assumptions of the model. We even heard about some of them yesterday.
+Why is that? In the past couple decades many different problems of this model arised that questioned its accuracy in a multitude of topics and even the model's validity in general. There is a long list of problems that concerns the fundamental tenets and assumptions of the model.
 
 So there are definitely physical models that seen better days than the Lambda-CDM nowadays. Despite all of this, it's still considered to be the standard model of cosmology. However its problems are indisputably widespread and needs to be addressed.
 
@@ -31,7 +31,7 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 So let's talk abot this. "Galactic Archaeology": what is it? Well... first of all, I think it is a funny name. When I hear the word "archaeology", I think of ancient cities, and the name "galactic archaeology" sounds even more exotic if I follow this train of thougth. But it actually describes really well, what it's all about!
 
-All the past events and processes that shape a galaxy at some point in its lifetime, always leave marks on the stellar attributes of stars inside that galaxy. And by attributes I mean like the chemical composition, spatial distribution, or the dynamics of stars and other things like that. Using these clues imprinted on stars, we can infer how a galaxy evolved in the past couple billion years, we can infer the processes that shaped it. With a better understanding of galactic evolution, we can constrain the nature of the large scale, the cosmological effects that influence every galactic evolution in the universe in the first place.
+All the past events and processes that shaped a galaxy at some point in its lifetime, left marks on the stellar attributes of stars inside that galaxy. And by attributes I mean like the chemical composition, spatial distribution, or the dynamics of stars and other things like that. Using these clues imprinted on stars, we can infer how a galaxy evolved in the past couple billion years, we can infer the processes that shaped it. With a better understanding of galactic evolution, we can constrain the nature of the large scale, the cosmological effects that influence every galactic evolution in the universe in the first place.
 
 Just to mention one of these large scale effects, for example the dark matter distribution and the properties of dark matter that - as we currently know or think - inherently drived the clumping of ordinary matter in the young universe, and thus created the first stars, galaxies and galaxy clusters. Later it formed dark matter halos around galaxies and larger structures that we can observe today. This is one of the most important connection that science wants to explore here.
 
@@ -88,8 +88,8 @@ There are many different questions that can be explored here, but we wanted to f
 I talked a couple words about the second one already. It's unfortunate we don't have a decent stellar model. So it would be great, if a neural network could learn the physical reality without any specific input from us.
 
 However, the goal of denoising data is more elaborate. First of all, it would be obviously great if an AI could just remove the noise from our data on the flip of a switch. Data without noise is almost always preferable. But there are two exact reasons for why we want to do that in the PFS research:
-    1. The actual, existing methods for the determination of stellar parameters are simply do not work, when the noise on a measured spectrum is too large. The reason is that these methods usually involve the substraction of the blackbody continuum from the measurements to get back simply the continuumless absorption lines. However, finding this continuum is many times impossible in noisy conditions. If we could efficiently and accurately denoise the spectra before this step, then we could use the already existing methods to continue the analysis for otherwise unusable data.
-    2. An other important issue is that the PFS Galactic Archaeology team has a large list of objets they want to observe. However many of these objects have a high probability of being something else they expect of what that object really is. But if we could tell on-the-fly that "sorry, the object that the telescope currently targets is not a red supergiant and you should start observing the next object from the list", that would save the collaboration a lot of observation time and thus a lot of money.
+    1. The actual, existing methods for the determination of stellar parameters are simply do not work, when they're presented with a noisy spectrum with the noise counterpart being too large. The reason is that these methods usually involve the substraction of the blackbody continuum from the measurements to get back simply the continuumless absorption lines. However, finding this continuum is many times impossible in noisy conditions. If we could efficiently and accurately denoise the spectra before this step, then we could use the already existing methods to continue the analysis for otherwise unusable data.
+    2. An other important issue is that the PFS Galactic Archaeology team has a large list of objets they want to observe. However many of these objects have a high probability of being something else they expect of what that object really is. But if we could tell on-the-fly that "sorry, the object that the telescope's currently targeting is not a red supergiant and you should start observing the next object from the list", that would save the collaboration a lot of observation time and thus a lot of money.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -101,7 +101,7 @@ It was obvious to us at this point that we have to use some form of autoencoder 
 
 This artificial neural network has two sides: and Encoder and a Decoder side.
 
-Its so-called Encoder side basically performs a dimensionality reduction: it encodes a high dimensional data to some low dimensional representation. The Decoder side on the right then tries to reconstruct some target data (usually, but not always the original input) from this low dimensional embedding, the so-called latent space.
+Its so-called Encoder side basically performs a dimensionality reduction: it encodes a high dimensional data to some low dimensional representation, called latent space. The Decoder side on the right then tries to reconstruct some target data (usually, but not always the original input) from this low dimensional embedding.
 
 And this is exactly what we want! We want to input a noisy spectrum into some neural network and then reconstruct a noiseless version of it on its output.
 
@@ -111,7 +111,7 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 ================
 
-After building a model and training it on synthetized data, we concluded that it worked much better than expected.
+After building a model and training it on synthetic data, we concluded that it worked much better than expected.
 
 You can see these results on this slide. The center panel shows a randomly selected spectrum and its reconstructed counterpart by a trained autoencoder on the same plot. They're almost completely overlap, you can't really see the differences between them here on this panel.
 
@@ -125,11 +125,11 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 However there comes the question: is this model just some technical hocus pocus or is this a physically informed and reliable tool for analysis of high resolution spectra?
 
-Rephrasing the question: Is this AI model learns how to denoise the dataset pixel-by-pixel, or does it have any actual idea about physics and uses it during the denoising process?
+Rephrasing the question: Is this AI model learns how to denoise the dataset pixel-by-pixel, or does it have any actual idea about physics that is uses during the denoising process?
 
-One of the tests we came up with for this was that we randomly injected physically completely meaningless, but believable, fake "spectral lines" to the original, noiseless spectra. After that we regenerated the noise on these modified spectra and asked an already trained neural network to denoise these modified, noisy spectra.
+The test we came up with for this was that we randomly injected physically completely meaningless, but believable, fake "spectral lines" to the original, noiseless spectra. After that we regenerated the noise on these modified spectra and asked an already trained neural network to denoise these modified, noisy spectra.
 
-If this denoising happens pixel-by-pixel and the neural network only learns some form of noise statistics, and how the noise works, then these injected spectral lines will simply survive this process. However if the neural network have any form of idea about the underlying physical processes too, then it will realize that these lines are lies. Just trickery. Or maybe just noise. Either way, it will think that there are no spectra to exist, where spectral lines appear at these positions, so these lines can be completely ignored.
+If this denoising happens pixel-by-pixel and the neural network only learns some form of noise statistics, and how the noise works, then these injected spectral lines will simply survive this process. However if the neural network have any form of idea about the underlying physical processes too, then it will realize that these not lines. They're are lies. Just trickery. Or maybe just noise. Either way, it will think that there are no spectra in existence, where spectral lines appear at these positions, so these lines can be completely ignored.
 
 ================
 LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
@@ -153,12 +153,12 @@ LAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZLAPOZZ
 
 Is it possible to improve this work? Yes. There are several ways.
 
-Besides simply improving the neural network we used, we can eg. ask, if we can build a real denoiser that can recognize and denoise different types of spectra, it never seen before. New types of spectra could have spectral lines that the model never seen before. Robustly denoising these spectra would be a great achievement.
+Besides endelessly improving the neural network we used, we can eg. ask, if we can build a real denoiser that can recognize and denoise those types of spectra too that it never seen before. Spectra from stars on an entirely different stellar parameter domain could have spectral lines that the model never seen before. Robustly denoising these spectra would be a great achievement.
 
-An interesting problem that we haven't explored yet is the continuum normalization. As I mentioned, several classical methods in the determination of spectral parameters need the blackbody continuum to be substracted from the measurements. We can improve our neural networks to the next level by not just denoising measured spectra, but immediately substract the continuum from them.
+An interesting problem that we haven't explored yet is the continuum normalization. As I mentioned, several classical methods in the determination of spectral parameters rely on the substraction of the blackbody continuum from the measurements. We can improve our neural networks to the next level by not just denoising measured spectra, but immediately substracting the continuum from them.
 
 Another use-case is to directly train a neural network for the on-the-fly target recognition, again, helping the collaboration to save a lot of observation time.
 
-================= OLD SCRIPT
+=================
 
 Time will tell how this knowledge will be used in practice, when the instrument is ready. But that's the end of my presentation, and thank you for yor attention.
