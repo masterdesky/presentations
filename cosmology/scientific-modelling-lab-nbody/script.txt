@@ -1,18 +1,18 @@
-- This topic is about creating computer simulations of the universe itself.
+- This topic is about creating computer simulations of the universe.
 
-- Let me tell in a couple words why this topic is relevant in physics and what do we mean by doing simulations of the universe.
+- In these cuople minutes let me tell you about the relevance of this topic in physics and what do we mean by creating simulations of the universe.
 
-- You already heard about "standard model" in terms of particle physics. It tries describe all physical phenomena that happens on the microscopic scale.
-- However much less elaborate, there is also a cosmological standard model, that tries to describe the universe on the macroscopic scale. Including how the universe was created, how it evolves over time and what is its future.
+- You already heard of "standard model" in terms of particle physics. It tries describe all physical phenomena that happens on the microscopic scale.
+- Now, however, much less elaborate, there is also a cosmological standard model, that tries to describe the universe on the macroscopic scale. Including how the universe was created, how it evolves over time and what is its future.
 
-- Currently the most widely accepted model to serve as the "standard model of cosmology" is called Lambda Cold Dark Matter (LCDM or LambdaCDM for short).
+- Currently the most widely accepted model to serve as the "standard model of cosmology" is called Lambda Cold Dark Matter or LambdaCDM model for short.
 - But in the past -- let's say -- 30 years, slowly many different problems and challanges of the LambdaCDM have emerged.
-- The abundance of these problems tell us that either the LambdaCDM is not the correct standard model of the universe or our knowledge in physics is incomplete. Solving this is currently the main goal of modern cosmology (and actually many other fields of physics as well).
+- The abundance of these problems tell us that either the LambdaCDM is not the correct standard model of the universe or our knowledge in physics is simply incomplete. Answering this is currently the main goal of modern cosmology and actually many other fields of physics as well.
 
-- Anyway, we have to study this problem somehow. There's many different approaches, but one quite modern way is running computer simulations of the universe.
+- Anyway, we have to address this problem somehow. There's many different approaches, but one quite modern way is to run computer simulations of the universe.
 
-- The idea behind this is very simple. The Big Bang happens and all matter in the universe starts to cool down. This cooling is going on for a couple hundred thousands of years, when matter starts to condense and collapse due to gravity and it forms stars and galaxies everything else. And in a cosmological simulation you follow this evolutionary process.
-- If we finished, then we can create a statistical analysis of the simulation. E.g. we can look into the distribution of matter throughout the simulation; the dynamics of how the matter condensed over time; and whatever else we want to study.
+- The idea behind this is very simple. The Big Bang happens and all matter in the universe starts to cool down. This cooling is going on for a couple hundred thousands of years, when matter finally starts to condense and collapse due to gravity and it forms stars and galaxies everything else beyond. And in a cosmological simulation you follow this evolutionary process of matter in the universe.
+- If we finished with that, then we can create a statistical analysis of the simulation. E.g. we can look into the distribution of matter throughout the simulation; the dynamics of how it condensed over time; or whatever else we want to study.
 - Finally, this information can be used to constrain either the LambdaCDM or other alternative cosmological models.
 
-- The main goal of this project will be to get familiar with the tools needed to create a cosmological simulation and then create one. Additionally, calculate some important statistical metric, like the matter power spectrum or something similar from the simulation.
+- The main goal of this project will be to get familiar with the tools needed to create a cosmological simulation and then create one. Additionally, calculate some important statistical metric, like the matter power spectrum or something similar.
