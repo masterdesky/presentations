@@ -1,17 +1,18 @@
-- In this project someone will explore cosmology and create computer simulations of the universe.
+- This topic is about creating computer simulations of the universe itself.
 
-- Why this topic is relevant in any way?
-- We usually mention the term "standard model" in particle physics, but cosmology has their own standard model too, the LCDM.
+- Let me tell in a couple words why this topic is relevant in physics and what do we mean by doing simulations of the universe.
 
-- Over the past years (or decades), slowly many different problems and challanges of the LCDM ave emerged.
-- The abundance of these problems tell us that either the LCDM is not the correct model or our knowledge in physics is incomplete.
+- You already heard about "standard model" in terms of particle physics. It tries describe all physical phenomena that happens on the microscopic scale.
+- However much less elaborate, there is also a cosmological standard model, that tries to describe the universe on the macroscopic scale. Including how the universe was created, how it evolves over time and what is its future.
 
-- There's many different ways how you can study the relevant physical phenomena, or the LCDM model or other alternative models, but one quite modern way is running computer simulations of the universe.
+- Currently the most widely accepted model to serve as the "standard model of cosmology" is called Lambda Cold Dark Matter (LCDM or LambdaCDM for short).
+- But in the past -- let's say -- 30 years, slowly many different problems and challanges of the LambdaCDM have emerged.
+- The abundance of these problems tell us that either the LambdaCDM is not the correct standard model of the universe or our knowledge in physics is incomplete. Solving this is currently the main goal of modern cosmology (and actually many other fields of physics as well).
 
-- The idea behind this is pretty much the same as for any simulations: "One physical world, but a million more with simulations."
-- Now we have the necessary computing capacity.
+- Anyway, we have to study this problem somehow. There's many different approaches, but one quite modern way is running computer simulations of the universe.
 
-- We want to analyse the statistical features and derive statistical metrics of simulations. Then use it to constraing models or the values of physical parameters.
+- The idea behind this is very simple. The Big Bang happens and all matter in the universe starts to cool down. This cooling is going on for a couple hundred thousands of years, when matter starts to condense and collapse due to gravity and it forms stars and galaxies everything else. And in a cosmological simulation you follow this evolutionary process.
+- If we finished, then we can create a statistical analysis of the simulation. E.g. we can look into the distribution of matter throughout the simulation; the dynamics of how the matter condensed over time; and whatever else we want to study.
+- Finally, this information can be used to constrain either the LambdaCDM or other alternative cosmological models.
 
-- Do this by simulating a larger section of the universe over a long time period, billions and billios of years.
-- Monitor how the content of the universe evolves spatially and temporally.
+- The main goal of this project will be to get familiar with the tools needed to create a cosmological simulation and then create one. Additionally, calculate some important statistical metric, like the matter power spectrum or something similar from the simulation.
