@@ -12,7 +12,7 @@ Cosmology is the study of the universe and its history as a whole. Essentially, 
 1. To uncover and describe all physical phenomena that affect the universe on the macroscopic scale.
 2. To develop a framework that can incorporate these phenomena in some unified manner... This is why cosmologists refer to such frameworks as the 'standard models of cosmology' or 'concordance cosmology'. So basically what physicists do in every single field of physics as well.
 
-The main difference is that in cosmology this 'standard model' is just a collection of assumptions regarding the universe that every cosmological theory and model must adhere to. Currently the most widely accepted framework is the 'Lambda-CDM' model with its own unique set of assumptions. This is the theoretical side of cosmology.
+The main difference is that in cosmology, this 'standard model' is just a collection of assumptions regarding the universe that every cosmological theory and model must adhere to. Currently the most widely accepted framework is the 'Lambda-CDM' model with its own unique set of assumptions. This is the theoretical side of cosmology.
 
 The role of the observational side of cosmology is -- again, same thing that scientists (not just physicists) do in every other field -- to test and constrain both the individual models of physical phenomena and consequentially, these unified assumptions of the universe as well at the same time. However, what we saw in the last three decades is that more and more observational evidence is accumulating that is in conflict with the 'Lambda-CDM' model.
 
@@ -77,13 +77,18 @@ Now one problem that comes up -- just to tell you a word about why this absolute
 
 Now that we have a code that is capable of optimally simulating a spherical, infinite universe, it becomes trivial how to determine an arbitrary rotation axis -- that e.g. runs through the center of this sphere -- and rotate the universe around it, just like we would rotate a ball.
 
-Unfortunately, there are not just technological -- that I talked about --, but also physical problems this rotating universe introduces. Rotation appear as a form of curvature in the orthogonal direction to the rotation axis. It obviously changes the kinetic energy of particles. And we need to compensate against this, we need to scale the velocity component, orthogonal to the rotation axis so we have the same total energy in the system as in the non-rotating case. Minor inconvenience.
+Unfortunately, there are not just technological -- that I talked about --, but also physical problems this rotating universe introduces. Rotation appear as a form of curvature in the orthogonal direction to the rotation axis. It obviously changes the kinetic energy of particles and thus the Hamiltonian. And we need to compensate against this, because to our best knowledge, there's no curvature factor in the universe. So we scale the velocity components, orthogonal to the rotation axis in a way that have the same total energy in the system as in the non-rotating case. Minor inconvenience.
 
 Now we can finally simulate a rotating universe and we want to run two types of simulations:
-1. One with a forceless initial condition, where the universe expands, but the particles are not moving relative to each other during the simulation.
+1. One with a forceless initial condition, where the universe expands, but the particles are not moving relative to each other during the simulation. We just simply place down the particles in a way that the sum of forces on them is zero. 
 2. And one with a regular cosmological initial condition, where large scale structure formation is happening.
 
-You can see the first type of simulation here. Visually neither of them will be different, than any other cosmological simulation with (except that StePS is spherical). Since the simulation is in non-comoving coordinates, you can actually see the expansion of the universe: We started from this little blob of particles; I zoomed into it in the middle panel. And in the right panel you can see how much the universe expanded from this initial small blob, the zoom level on the left and right panels are the same.
+What I'm showing you in this presentation is the first type of simulations. Visually neither of them will be different, than any other forceless cosmological simulation (except that StePS is spherical), so you won't see any effect of the rotation just by looking at these images. Since the simulation is in non-comoving coordinates, what you can actually see is the expansion of the universe: We started from this little blob of particles; I zoomed into it in the middle panel. And in the right panel you can see how much the universe expanded from this initial small blob, the zoom level on the left and right panels are the same.
+
+---
+MAY OR MAY NOT TALK ABOUT THIS
+
+---
 
 On this bottom figure you can see something else, this is the displacement field of the simulation and we're looking at the particles from the three cardinal directions. The displacement field is what its name implies is. We connect the initial and final positions of the particles with a vector. The length of the vector is the displacement of the particle. We usually visualize this in comoving coordinates, because we don't care about the radial Hubble flow, only the movement of particles relative to each other.
 
