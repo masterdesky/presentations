@@ -27,7 +27,7 @@ Now there is an even more growing disagreement on how to approach these conflict
 
 Some cosmologists argue that they can be ironed out in the confines of the 'Lambda-CDM' model. Some of these people believe that they are due to systematic errors in the observations, while others say the discrepancies can be tackled by introducing new physical phenomena that explains them. On the other hand, there is another growing group of people, who think that the conflicts are very real and the 'Lambda-CDM' model should be replaced with a entirely new one. But we all know, you can't just push new ideas through the scientific community, so despite all problems, the LCDM model still holds strong.
 
-Actually the group of István Csabai already had a proposal for a new model in 2017, which they called the 'AvERA' model. It describes the universe without the need of dark energy and possibly solves the Hubble tension. But in this project we went with the 'introducing a new physical phenomenon' option; namely a sheer-free, rigid-body rotation of the universe.
+And although the group of István Csabai already had a proposal for a new model in 2017, which they called the 'AvERA' model, in this project we went with the 'introducing a new physical phenomenon' option; namely a sheer-free, rigid-body rotation of the universe.
 
 Whatever that means...
 
@@ -46,7 +46,7 @@ And we specifically wanted to answer this question using cosmological simulation
 
 So far, no one has ever done this. Not the cosmological simulations part in general, but the cosmological simulation of a rotating universe.
 
-And there is a reason for that why no one has done this before. It is that our general approach or idea about cosmological simulations have not changed since... forever. Of course there is a huge variety of cosmological simulations from the past 50 years and they improved tremendously, but the basic idea behind these simulations were always the same.
+And there is a reason for why no one has done this before. It is that our general approach or idea about cosmological simulations have not changed since... forever. Of course there is a huge variety of cosmological simulations from the past 50 years and they improved tremendously, but the basic idea behind these simulations were always the same.
 
 How do we even do cosmological simulations?
 1. We start with some initial conditions, which represents some early state of the universe with matter almost uniformly distributed,
