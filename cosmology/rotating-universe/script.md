@@ -1,20 +1,20 @@
 
 My name is Balázs Pál, I am physics PhD student at the Eötvös Loránd University and at the Heavy-Ion group at Wigner.
 
-I am really glad that for this very first presentation of the day I can present you a funny little project that I am currently working on. I am advised by several of my much more knowledgeable peers in the topic, like István Szapudi, whose original idea was this project, Gábor Rácz, who developed and currently maintains the simulation code I'm using and István Csabai, my actual PhD supervisor. All of us are part of István Csabai's astro/cosmo research group.
+The topic I would like to present you is just about a funny little simulation project I am working on. I am advised by several of my much more knowledgeable peers in the topic, like István Szapudi from the University of Hawai'i, whose original idea was this project, Gábor Rácz, who developed and currently maintains the simulation code I am using and István Csabai from the Eötvös Loránd University, my actual PhD supervisor. All of us are part of István Csabai's astro/cosmo research group.
 
 ---
 'Current state of cosmology' slide - first segment
 
 ---
 
-This topic is from the field of computational cosmology. So whether you're familiar with it or not, please let me give you some context first. Primarily about the current state of cosmology and the motivation of this project and research in general in this field.
+This topic is from the field of computational cosmology. First please let me give you some context about it. More specifically about the current state of cosmology and the motivation of this project and research in general in this field.
 
 We usually say that cosmology is the study of the universe and its history as a whole. But essentially, it aims to achieve two main goals:
 1. To uncover and describe all physical phenomena that affect the universe on the macroscopic scale.
 2. To develop a framework that can incorporate these phenomena in some unified manner... This is why cosmologists refer to such frameworks as the 'standard models of cosmology' or 'concordance cosmology'. So basically what physicists do in every single field of physics as well.
 
-The main difference is that in cosmology, this 'standard model' is just a collection of assumptions about the universe, and every cosmological theory and model must adhere to them. Currently the most widely accepted such framework is the 'Lambda-CDM' model with its own unique set of assumptions. This is the theoretical side of cosmology.
+The main difference is that in cosmology, this 'standard model' is just a collection of assumptions about the universe, and we expect that every cosmological theory and model adhere to them. Currently the most widely accepted such framework is the 'Lambda-CDM' model with its own unique set of assumptions. This is the theoretical side of cosmology.
 
 The role of the observational side of cosmology is to test and constrain both the individual models of physical phenomena and consequentially, these unified assumptions of the universe as well at the same time. But, what we saw in the last couple decades is that more and more observational evidence is accumulating that is in conflict with the 'Lambda-CDM' model.
 
