@@ -1,22 +1,27 @@
 
-My name is Balázs Pál, I am physics PhD student at the Eötvös Loránd University and at the Heavy-Ion group at Wigner.
+My name is Balázs Pál, I am physics PhD student at the Eötvös Loránd University and at the Heavy-Ion research group at the Wigner Research Center.
 
-The topic I would like to present you is just about a funny little simulation project I am working on. I am advised by several of my much more knowledgeable peers in the topic, like István Szapudi from the University of Hawai'i, whose original idea was this project, Gábor Rácz, who developed and currently maintains the simulation code I am using and István Csabai from the Eötvös Loránd University, my actual PhD supervisor. All of us are part of István Csabai's astro/cosmo research group.
+What I'm going to present you here today is a funny little computer simulation project that I am currently working on. I am advised by several of my much more knowledgeable peers in the topic, including
+- Prof. István Szapudi from the University of Hawai'i, who originally suggested the topic and responsible for its theoretical framework;
+- Gábor Rácz, who developed and currently maintains the simulation code I'm using
+- and Prof. István Csabai, my actual PhD supervisor.
 
 ---
 'Current state of cosmology' slide - first segment
 
 ---
 
-This topic is from the field of computational cosmology. First please let me give you some context about it. More specifically about the current state of cosmology and the motivation of this project and research in general in this field.
+The topic is in field of computational cosmology. Whether you're familiar with it or not, please let me give you some context first. Primarily about the current state of cosmology and the motivation of this project and research in general in this field.
 
 We usually say that cosmology is the study of the universe and its history as a whole. But essentially, it aims to achieve two main goals:
 1. To uncover and describe all physical phenomena that affect the universe on the macroscopic scale.
 2. To develop a framework that can incorporate these phenomena in some unified manner... This is why cosmologists refer to such frameworks as the 'standard models of cosmology' or 'concordance cosmology'. So basically what physicists do in every single field of physics as well.
 
-The main difference is that in cosmology, this 'standard model' is just a collection of assumptions about the universe, and we expect that every cosmological theory and model adhere to them. Currently the most widely accepted such framework is the 'Lambda-CDM' model with its own unique set of assumptions. This is the theoretical side of cosmology.
+The main difference is that in cosmology, this 'standard model' is more like just a collection of assumptions about the universe, and we expect that every cosmological theory and model adhere to them. Currently the most widely accepted such framework is the 'Lambda-CDM' model with its own unique set of assumptions. This is the theoretical side of cosmology.
 
-The role of the observational side of cosmology is to test and constrain both the individual models of physical phenomena and consequentially, these unified assumptions of the universe as well at the same time. But, what we saw in the last couple decades is that more and more observational evidence is accumulating that is in conflict with the 'Lambda-CDM' model.
+However, what we saw in the last couple decades is that more and more observational evidence is accumulating that is in conflict with
+- the 'Lambda-CDM' model,
+- and each other as well.
 
 ---
 'Current state of cosmology' slide - last line
@@ -25,9 +30,9 @@ The role of the observational side of cosmology is to test and constrain both th
 
 Now there is an even more growing disagreement on how to approach these conflicts.
 
-Some cosmologists argue that they can be ironed out in the confines of the 'Lambda-CDM' model. Some of these people believe that they are due to systematic errors in the observations, while others say the discrepancies can be tackled by introducing new physical phenomena that explains them. On the other hand, there is another growing group of people, who think that the conflicts are very real and the 'Lambda-CDM' model should be replaced with a entirely new one. But we all know, you can't just push new ideas through the scientific community, so despite all problems, the LCDM model still holds strong.
+Some argue that they are due to systematic errors in the observations, others say the discrepancies can be tackled by introducing new physical phenomena that explains them. But there is also another growing group of people, who think that the conflicts are very real and the 'Lambda-CDM', our 'standard model of cosmology' should be replaced with an entirely new one.
 
-And although the group of István Csabai already had a proposal for a new model in 2017, which they called the 'AvERA' model, in this project we went with the 'introducing a new physical phenomenon' option; namely a sheer-free, rigid-body rotation of the universe.
+The group of István Csabai already had a proposal for a new model in 2017, which they called the 'AvERA' model and it tries to describe the universe without the need of dark energy. However, in this project we went with the 'introducing a new physical phenomenon' option; namely a sheer-free, rigid-body rotation of the universe.
 
 Whatever that means...
 
@@ -35,16 +40,16 @@ The idea comes from the simple observation that everything in the universe rotat
 
 We expect that a rotation would introduce an anisotropic expansion of the universe, so the expansion rate would depend on the direction we are looking at. Specifically it would depend on the axis of rotation. This is the theoretical prediction.
 
-And we wanted to test, whether this effect is even observable? Relevant? That's the question.
+And we wanted to test, whether this effect is observable or not observable? That is the question.
 
 ---
 'Cosmological simulations' slide
 
 ---
 
-And we specifically wanted to answer this question using cosmological simulations, because... yeah, how else we're supposed to?
+And we specifically wanted to answer this question using cosmological N-body simulations, because... yeah, how else we're supposed to?
 
-So far, no one has ever done this. Not the cosmological simulations part in general, but the cosmological simulation of a rotating universe.
+So far, no one has ever done this. Not the cosmological simulations part in general, but the cosmological N-body simulation of a rotating universe.
 
 And there is a reason for why no one has done this before. It is that our general approach or idea about cosmological simulations have not changed since... forever. Of course there is a huge variety of cosmological simulations from the past 50 years and they improved tremendously, but the basic idea behind these simulations were always the same.
 
@@ -60,20 +65,20 @@ How do we even do cosmological simulations?
 
 And here comes The 'basic idea' I was mentioning. For decades, cosmological simulations were always cubical and in the majority of the cases, periodic. When someone wanted to simulate the universe, they took a finite, cubical region of the universe, filled it with particles, repeated this box infinitely in all directions (periodic boundary conditions), and then solved the relevant differential equations (which is Newtonian gravity in cosmological simulations) to evolve the system in time.
 
-This approach has both advantages and disadvantages. But the relevant one for us is that the rotation of a universe with infinite spatial extent cannot be simulated in a periodic box. István Szapudi is the one, who could tell you more about this, but a rotation would appear as a constant velocity flow inside this periodic box (which is topologically actually a 4-dimensional torus -- NEXT ANIMATION --), but it won't have any acceleration, like a rotating universe should have. Great, we can't use the only method that everyone else used in the past 50 years.
+This approach has both advantages and disadvantages. But the relevant one for us is that the rotation of a universe cannot be simulated in a periodic box. A rotation would appear as a constant velocity flow inside this periodic box (which is topologically actually a 4-dimensional torus -- NEXT ANIMATION --), but it won't have any acceleration, like a rotating universe should have. Great, we can't use the only method that everyone else used in the past 50 years.
 
 Fortunately, there is another way to make cosmological simulations and it is exactly what was done for the first time by the group of István Csabai in 2018 with some twists, when they developed the StePS simulation code, which stands for "STEreographically Projected cosmological Simulations". The general idea is to drop the translational invariance of the classical periodic simulations in favor of rotational invariance.
 
-The way StePS realizes this is very funny, because it is actually based on a fairly simple geometrical idea ('stereographic projection'), which was already well-known by ancient Greek philosophers. István Szapudi regularly mentions how much he's baffled that no one ever tried this before them. So this stereographic project is the method to map the surface of a sphere onto the entire plane. However, it can be generalized for higher dimension and this is exactly what StePS does.
+The way StePS realizes this is very funny, because it is actually based on a fairly simple geometrical idea ('stereographic projection'), which was already well-known by ancient Greek philosophers. This stereographic project is the method to map the surface of a sphere onto the entire plane. However, it can be generalized for higher dimension and this is exactly what StePS does.
 
-It compactifies the infinite 3D space, an infinite, spherical, 3D universe into/onto a finite 4D sphere. Due to the nature of the stereographic projection, the simulation in the real 3D space will have a gradually decreasing resolution as we move away from the center of the sphere. I do not want to go into the details, but this approach, where an infinite universe with a rotational symmetry is realized, it is much closer to physical reality, than the classic method: this periodic force calculation inside a cube with some arbitrary cut-off distance for the force calculation, which are all just for the sake of numerical convenience.
+It compactifies the infinite 3D space, an infinite, spherical, 3D universe into/onto a finite 4D sphere. Due to the nature of this projection, the simulation in the real 3D space will have a gradually decreasing resolution as we move away from the center of the sphere. I do not want to go into the details, but this approach, where an infinite universe with a rotational symmetry is realized, it is much closer to physical reality, than the classic method: which this periodic force calculation inside a cube with some arbitrary cut-off distance in the force calculation, which are all just for the sake of numerical convenience.
 
 ---
 'StePS rotating simulation' slide
 
 ---
 
-Now that we have a code that is capable of simulating a spherical, infinite universe, it becomes trivial how to define an arbitrary rotation axis -- e.g. one that runs through the Z-axis (this is what I used in these simulations) -- and then we can simply rotate the universe around it, just like we would rotate a ball. We want to run two types of simulations:
+Now that we have a code that is capable of simulating a spherical, infinite universe, it becomes trivial how to define an arbitrary rotation axis -- e.g. one that runs along the Z-axis (this is what I used in these simulations) -- and then we can simply rotate the universe around it, just like we would rotate a ball. We want to run two types of simulations:
 1. One with a forceless initial condition, where the universe expands, but the particles are not moving relative to each other during the simulation. We just simply place down the particles in a way that the sum of forces is zero. 
 2. And one with a regular cosmological initial condition, where large scale structure formation is happening.
 
@@ -118,3 +123,10 @@ I do not and cannot want to answer this right now, since this project in its cur
 ---
 
 Thank you for your attention!
+
+Q/A
+Q: Why Newtonian?
+A: In the low velocity limit, like what we simulate here, dynamics of dark matter is governed by Newtonian gravity. Whether relativistic effects, most importantly relativistic backreaction exists is a matter of debate, but the current consensus is that it is negligible.
+
+Q: How do you simulate an infinite universe?
+A: We simulate an infinite universe by compactifying it into a finite spherical volume using a stereographic projection. This method maps the infinite space onto the surface of a four-dimensional sphere. The outermost shell of this compactified space, which corresponds to the polar region on the 4D sphere, effectively extends to infinity.
