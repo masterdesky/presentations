@@ -65,7 +65,7 @@ How do we even do cosmological simulations?
 
 And here comes The 'basic idea' I was mentioning. For decades, cosmological simulations were always cubical and in the majority of the cases, periodic. When someone wanted to simulate the universe, they took a finite, cubical region of the universe, filled it with particles, repeated this box infinitely in all directions (periodic boundary conditions), and then solved the relevant differential equations (which is Newtonian gravity in cosmological simulations) to evolve the system in time.
 
-This approach has both advantages and disadvantages. But the relevant one for us is that the rotation of a universe cannot be simulated in a periodic box. A rotation would appear as a constant velocity flow inside this periodic box (which is topologically actually a 4-dimensional torus -- NEXT ANIMATION --), but it won't have any acceleration, like a rotating universe should have. Great, we can't use the only method that everyone else used in the past 50 years.
+This approach has both advantages and disadvantages. But the relevant one for us is that the rotation of the universe cannot be simulated in a periodic box. A rotation would appear as a constant velocity flow inside this periodic box (which is topologically actually a 4-dimensional torus -- NEXT ANIMATION --), but it won't have any acceleration, like a rotating universe should have. Great, we can't use the only method that everyone else used in the past 50 years.
 
 Fortunately, there is another way to make cosmological simulations and it is exactly what was done for the first time by the group of István Csabai in 2018 with some twists, when they developed the StePS simulation code, which stands for "STEreographically Projected cosmological Simulations". The general idea is to drop the translational invariance of the classical periodic simulations in favor of rotational invariance.
 
@@ -99,7 +99,7 @@ Fortunately this effect is extremely small. I tested the final state of the simu
 
 ---
 
-What I mentioned in the beginning is that we wanted to measure, whether there is an observable difference in the expansion rate of the universe defined by the axis of rotation. We can do this by measuring the scale factor of the universe parallel and orthogonal to the rotation axis.
+What I mentioned in the beginning is that we wanted to measure, whether there is an observable difference in the expansion rate of the universe defined by the axis of rotation. We can do this by measuring the scale factor of the universe parallel and orthogonal to the rotation axis. We expect the highest anisotropy between these two directions.
 
 It is not a trivial task. The scale factor of the expansion is usually calculated with isotropy in mind, so for all particles at the same time, without any directionality. We had to invent some plausible method to measure it in two different directions. After some trial and error, what we came up with is the following:
 1. We measure the scale factor parallel to the rotation axis in two 'spherical sectors', centered on the rotation axis, but in opposite directions. These are basically conical regions of the sphere. Since the rotation axis was the `Z`-axis in our case, you can see the central cross section of the two cones going up and down from the center in the X-Z and Y-Z planes.
